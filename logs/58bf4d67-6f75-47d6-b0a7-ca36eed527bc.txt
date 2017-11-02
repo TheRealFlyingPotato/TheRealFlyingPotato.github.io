@@ -1,2 +1,0 @@
-this will fail
-<div dir="ltr">this will fail</div>
