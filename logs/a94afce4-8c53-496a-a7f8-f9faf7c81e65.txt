@@ -1,5 +1,0 @@
-spammity mc spam spam<!DOCTYPE html>
-<html><head>
-    <meta charset="UTF-8">
-</head><body><p style="font-size: 12pt; font-family: helvetica, arial, sans-serif; color: rgb(51, 51, 51);">spammity&#160;mc spam spam</p></body></html>
- 
