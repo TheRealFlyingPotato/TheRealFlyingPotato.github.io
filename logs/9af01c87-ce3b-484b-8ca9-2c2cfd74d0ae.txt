@@ -1,0 +1,219 @@
+On Wed, Nov 1, 2017 at 10:42 PM, Michael Ward <myredditbots@gmail.com> wrote:  > > > On Wed, Nov 1, 2017 at 10:40 PM, Michael Ward <myredditbots@gmail.com> > wrote: > >> >> >> On Wed, Nov 1, 2017 at 10:38 PM, Michael Ward <myredditbots@gmail.com> >> wrote: >> >>> >>> >>> On Wed, Nov 1, 2017 at 10:37 PM, Michael Ward <myredditbots@gmail.com> >>> wrote: >>> >>>> >>>> >>>> On Wed, Nov 1, 2017 at 10:35 PM, Michael Ward <myredditbots@gmail.com> >>>> wrote: >>>> >>>>> >>>>> >>>>> On Wed, Nov 1, 2017 at 10:32 PM, Michael Ward <myredditbots@gmail.com> >>>>> wrote: >>>>> >>>>>> >>>>>> >>>>>> On Wed, Nov 1, 2017 at 10:31 PM, Michael Ward <myredditbots@gmail.com >>>>>> > wrote: >>>>>> >>>>>>> >>>>>>> >>>>>>> On Wed, Nov 1, 2017 at 10:24 PM, Michael Ward < >>>>>>> myredditbots@gmail.com> wrote: >>>>>>> >>>>>>>> Applying ongoing effect: Increase damage dealt to Crushing Cage by >>>>>>>> 1.
+>>>>>>>> Crazed Artifice puts Lambent Reaper into play.
+>>>>>>>> Applying ongoing effect: Increase damage dealt to Lambent Reaper by >>>>>>>> 1.
+>>>>>>>> Crazed Artifice moved Whispers of Oblivion from Infinitor's >>>>>>>> revealed cards to the villain trash.
+>>>>>>>> Crazed Artifice moved Machinations of a Madman from Infinitor's >>>>>>>> revealed cards to the villain trash.
+>>>>>>>> GameController moved Crazed Artifice to the villain trash.
+>>>>>>>> GameController moved Whispers of Oblivion to the villain trash.
+>>>>>>>> GameController moved Insanity to the villain trash.
+>>>>>>>> Went from Infinitor's PlayCard phase to End phase.
+>>>>>>>> Infinitor initiates 4 Energy damage to The Hunted Naturalist.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to The Hunted >>>>>>>> Naturalist by Infinitor by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Infinitor by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Infinitor by 1.
+>>>>>>>> Action of Infinitor was cancelled by Resilient Hide.
+>>>>>>>> Twisted Miscreation initiates 5 Energy damage to The Hunted >>>>>>>> Naturalist.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to The Hunted >>>>>>>> Naturalist by Twisted Miscreation by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Twisted Miscreation by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Twisted Miscreation by 1.
+>>>>>>>> Twisted Miscreation deals The Hunted Naturalist 2 Energy damage.
+>>>>>>>> The Hunted Naturalist is now at 16 HP.
+>>>>>>>> Recalescent Hellion initiates 3 Fire damage to Freedom Six Tachyon.
+>>>>>>>> Indomitable Force redirects the damage dealt from Freedom Six >>>>>>>> Tachyon to The Hunted Naturalist.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to The Hunted >>>>>>>> Naturalist by Recalescent Hellion by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Recalescent Hellion by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Recalescent Hellion by 1.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> Recalescent Hellion initiates 3 Fire damage to Omnitron-X.
+>>>>>>>> Indomitable Force redirects the damage dealt from Omnitron-X to The >>>>>>>> Hunted Naturalist.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to The Hunted >>>>>>>> Naturalist by Recalescent Hellion by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Recalescent Hellion by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Recalescent Hellion by 1.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> Lambent Reaper initiates 2 Energy damage to Vitality Conduit.
+>>>>>>>> Cosmic Crest made Vitality Conduit immune to damage.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> Lambent Reaper initiates 2 Psychic damage to Vitality Conduit.
+>>>>>>>> Indomitable Force redirects the damage dealt from Vitality Conduit >>>>>>>> to The Hunted Naturalist.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to The Hunted >>>>>>>> Naturalist by Lambent Reaper by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Lambent Reaper by 1.
+>>>>>>>> Indomitable Force reduces the damage dealt to The Hunted Naturalist >>>>>>>> by Lambent Reaper by 1.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> Went from Infinitor's End phase to Tachyon's Start phase.
+>>>>>>>> Freedom Six Tachyon initiates 2 Sonic damage to Freedom Six Tachyon.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Freedom Six >>>>>>>> Tachyon by Freedom Six Tachyon by 1.
+>>>>>>>> Energy Bracer reduces the damage dealt to Freedom Six Tachyon by >>>>>>>> Freedom Six Tachyon by 1.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> Pushing The Limits destroys itself!
+>>>>>>>> GameController moved Pushing The Limits to Tachyon's trash.
+>>>>>>>> Went from Tachyon's Start phase to PlayCard phase.
+>>>>>>>> GameController plays Lightning Reflexes.
+>>>>>>>> Lightning Reflexes plays Lightning Reflexes.
+>>>>>>>> Lightning Reflexes plays Pushing The Limits.
+>>>>>>>> Pushing The Limits increased the action count of PlayCard by 1.
+>>>>>>>> Lightning Reflexes plays Lightspeed Barrage.
+>>>>>>>> Freedom Six Tachyon initiates 7 Melee damage to Infinitor.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Freedom Six >>>>>>>> Tachyon by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Freedom Six Tachyon by 1.
+>>>>>>>> Freedom Six Tachyon deals Infinitor 5 Melee damage.
+>>>>>>>> Infinitor is now at 48 HP.
+>>>>>>>> Autonomous Blade initiates 2 Energy damage to Infinitor.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Autonomous Blade >>>>>>>> by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Autonomous Blade by 1.
+>>>>>>>> Damage amount was 0, so no damage was dealt.
+>>>>>>>> GameController moved Lightspeed Barrage to Tachyon's trash.
+>>>>>>>> GameController moved Lightning Reflexes to Tachyon's trash.
+>>>>>>>> Lightning Reflexes plays Lightspeed Barrage.
+>>>>>>>> Freedom Six Tachyon initiates 7 Melee damage to Infinitor.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Freedom Six >>>>>>>> Tachyon by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Freedom Six Tachyon by 1.
+>>>>>>>> Freedom Six Tachyon deals Infinitor 5 Melee damage.
+>>>>>>>> Infinitor is now at 43 HP.
+>>>>>>>> GameController moved Lightspeed Barrage to Tachyon's trash.
+>>>>>>>> GameController moved Lightning Reflexes to Tachyon's trash.
+>>>>>>>> GameController plays Lightspeed Barrage.
+>>>>>>>> Freedom Six Tachyon initiates 7 Melee damage to Infinitor.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Freedom Six >>>>>>>> Tachyon by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Freedom Six Tachyon by 1.
+>>>>>>>> Freedom Six Tachyon deals Infinitor 5 Melee damage.
+>>>>>>>> Infinitor is now at 38 HP.
+>>>>>>>> GameController moved Lightspeed Barrage to Tachyon's trash.
+>>>>>>>> Went from Tachyon's PlayCard phase to UsePower phase.
+>>>>>>>> Tachyon uses the power on Freedom Six Tachyon.
+>>>>>>>> Tachyon draws HUD Goggles.
+>>>>>>>> Parse draws Gauge.
+>>>>>>>> Captain Cosmic draws Autonomous Blade.
+>>>>>>>> Omnitron-X draws Slip Through Time.
+>>>>>>>> The Naturalist draws Crafty Assault.
+>>>>>>>> Pushing The Limits increased the action count of DrawCard by 1.
+>>>>>>>> Went from Tachyon's UsePower phase to DrawCard phase. (Count: 2)
+>>>>>>>> Tachyon draws Sucker Punch.
+>>>>>>>> Tachyon draws Synaptic Interruption.
+>>>>>>>> Went from Tachyon's DrawCard phase to End phase.
+>>>>>>>> Went from Tachyon's End phase to Parse's Start phase.
+>>>>>>>> Parse discards Data-Mining.
+>>>>>>>> Snap Decision moved Data-Mining from Parse's hand to Parse's trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Snap Decision plays Critical Multiplier.
+>>>>>>>> Parse discards Quick Calculation.
+>>>>>>>> Augmented Ally moved Quick Calculation from Parse's hand to Parse's >>>>>>>> trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Parse uses the power on Segmentation Fault.
+>>>>>>>> Parse discards Extrasensory Awareness.
+>>>>>>>> Segmentation Fault moved Extrasensory Awareness from Parse's hand >>>>>>>> to Parse's trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Fugue >>>>>>>> State Parse by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Fugue >>>>>>>> State Parse by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Segmentation Fault destroys Oppressive Smog!
+>>>>>>>> GameController moved Oppressive Smog to the environment trash.
+>>>>>>>> Parse discards Between the Lines.
+>>>>>>>> Augmented Ally moved Between the Lines from Parse's hand to Parse's >>>>>>>> trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Parse uses the power on Fugue State Parse.
+>>>>>>>> Fugue State Parse's Neural Processing plays Targeting Arrow.
+>>>>>>>> Fugue State Parse initiates 1 Projectile damage to Infinitor.
+>>>>>>>> Critical Multiplier increases the damage dealt by Fugue State Parse >>>>>>>> by 2.
+>>>>>>>> Infinitor cannot reduce the damage, because it is irreducible.
+>>>>>>>> Atlantean Throne Room cannot reduce the damage, because it is >>>>>>>> irreducible.
+>>>>>>>> Fugue State Parse deals Infinitor 3 Projectile damage.
+>>>>>>>> Infinitor is now at 35 HP.
+>>>>>>>> Applying ongoing effect: Increase damage dealt to Infinitor by 1.
+>>>>>>>> Autonomous Blade initiates 2 Energy damage to Infinitor.
+>>>>>>>> Targeting Arrow increases the damage dealt by Autonomous Blade by 1.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Autonomous Blade >>>>>>>> by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Autonomous Blade by 1.
+>>>>>>>> Autonomous Blade deals Infinitor 1 Energy damage.
+>>>>>>>> Infinitor is now at 34 HP.
+>>>>>>>> GameController moved Targeting Arrow to Parse's trash.
+>>>>>>>> Fugue State Parse's Neural Processing plays Energy Bracer.
+>>>>>>>> GameController moved Energy Bracer from Captain Cosmic's deck next >>>>>>>> to Fugue State Parse.
+>>>>>>>> Went from Parse's Start phase to PlayCard phase.
+>>>>>>>> GameController plays Recompile.
+>>>>>>>> Parse discards Reveal the Flaws.
+>>>>>>>> Recompile moved Reveal the Flaws from Parse's hand to Parse's trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Parse discards Reveal the Flaws.
+>>>>>>>> Recompile moved Reveal the Flaws from Parse's hand to Parse's trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Parse discards Updated Intel.
+>>>>>>>> Recompile moved Updated Intel from Parse's hand to Parse's trash.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Applying ongoing effect: Increase the next damage dealt by Captain >>>>>>>> Cosmic by 1.
+>>>>>>>> Parse draws Reveal the Flaws.
+>>>>>>>> Parse draws Updated Intel.
+>>>>>>>> Parse draws Quick Calculation.
+>>>>>>>> Parse draws Snap Decision.
+>>>>>>>> Parse draws Data-Mining.
+>>>>>>>> Parse draws Targeting Arrow.
+>>>>>>>> GameController moved Recompile to Parse's trash.
+>>>>>>>> Went from Parse's PlayCard phase to UsePower phase.
+>>>>>>>> Parse uses the power on Gauge.
+>>>>>>>> Parse draws Segmentation Fault.
+>>>>>>>> Went from Parse's UsePower phase to DrawCard phase.
+>>>>>>>> Parse draws Impossible Shot.
+>>>>>>>> Went from Parse's DrawCard phase to End phase.
+>>>>>>>> Went from Parse's End phase to Captain Cosmic's Start phase.
+>>>>>>>> Unflagging Animation puts Dynamic Siphon into play.
+>>>>>>>> GameController moved Dynamic Siphon from Captain Cosmic's trash >>>>>>>> next to Fugue State Parse.
+>>>>>>>> Went from Captain Cosmic's Start phase to PlayCard phase.
+>>>>>>>> GameController plays Construct Cataclysm.
+>>>>>>>> Construct Cataclysm destroys Augmented Ally!
+>>>>>>>> Captain Cosmic initiates 1 Energy damage to Infinitor.
+>>>>>>>> Targeting Arrow increases the damage dealt by Captain Cosmic by 1.
+>>>>>>>> Infinitor is a nemesis of Captain Cosmic. Damage dealt increased by >>>>>>>> 1.
+>>>>>>>> Critical Multiplier increases the damage dealt by Captain Cosmic by >>>>>>>> 18.
+>>>>>>>> Infinitor reduces the damage dealt to Infinitor by Captain Cosmic >>>>>>>> by 1.
+>>>>>>>> Atlantean Throne Room reduces the damage dealt to Infinitor by >>>>>>>> Captain Cosmic by 1.
+>>>>>>>> Captain Cosmic deals Infinitor 19 Energy damage.
+>>>>>>>> Infinitor is now at 15 HP.
+>>>>>>>> GameController moved Augmented Ally to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Augmented Ally!
+>>>>>>>> GameController moved Augmented Ally to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Autonomous Blade!
+>>>>>>>> GameController moved Autonomous Blade to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Autonomous Blade!
+>>>>>>>> GameController moved Autonomous Blade to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Cosmic Crest!
+>>>>>>>> GameController moved Cosmic Crest to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Cosmic Weapon!
+>>>>>>>> GameController moved Cosmic Weapon to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Cosmic Weapon!
+>>>>>>>> GameController moved Cosmic Weapon to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Dynamic Siphon!
+>>>>>>>> GameController moved Dynamic Siphon to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Dynamic Siphon!
+>>>>>>>> GameController moved Dynamic Siphon to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Dynamic Siphon!
+>>>>>>>> GameController moved Dynamic Siphon to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Energy Bracer!
+>>>>>>>> GameController moved Energy Bracer to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Energy Bracer!
+>>>>>>>> GameController moved Energy Bracer to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Energy Bracer!
+>>>>>>>> GameController moved Energy Bracer to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Vitality Conduit!
+>>>>>>>> GameController moved Vitality Conduit to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Vitality Conduit!
+>>>>>>>> GameController moved Vitality Conduit to Captain Cosmic's trash.
+>>>>>>>> Construct Cataclysm destroys Wounding Buffer!
+>>>>>>>> GameController moved Wounding Buffer to Captain Cosmic's trash.
+>>>>>>>> Captain Cosmic initiates 16 Energy damage to Infinitor.
+>>>>>>>> Targeting Arrow increases the damage dealt by Captain Cosmic by 1.
+>>>>>>>> Infinitor is a nemesis of Captain Cosmic. Damage dealt increased by >>>>>>>> 1.
+>>>>>>>> Infinitor cannot reduce the damage, because it is irreducible.
+>>>>>>>> Atlantean Throne Room cannot reduce the damage, because it is >>>>>>>> irreducible.
+>>>>>>>> Captain Cosmic deals Infinitor 18 Energy damage.
+>>>>>>>> Infinitor is now at -3 HP.
+>>>>>>>> Freedom Six Tachyon, Fugue State Parse, Captain Cosmic, Omnitron-X >>>>>>>> and The Hunted Naturalist all defeated Infinitor! Congratulations!
+>>>>>>>> You just unlocked the promo card: Captain Cosmic Requital!
+>>>>>>>> CheckForIncrement: Is final damage >>>>>>>> >>>>>>> >>>>>>> >>>>>> >>>>> >>>> >>> >> > 
