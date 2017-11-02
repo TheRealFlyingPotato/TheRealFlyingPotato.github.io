@@ -99,6 +99,19 @@
 
 global PRINTTEST
 PRINTTEST = True
+RESPONSE_SUBJECT = 'Log Recieved'
+RESPONSE_BODY = 'Your log has been recieved and posted to:\nhttps://therealflyingpotato.github.io/logs/'
+
+
+import smtplib
+def sendmsg(link_address, to_email):
+    content = 'Subject: ' + RESPONSE_SUBJECT + '\r\n\r\n' + RESPONSE_BODY + link_address
+    m = smtplib.SMTP('smtp.gmail.com',587)
+    m.ehlo()
+    m.starttls()
+    m.login('myredditbots@gmail.com','1m0nf1r3')
+    m.sendmail('myredditbots@gmail.com',to_email, content)
+    m.close()
 
 def tprint(*args):
     tprint.count += 1
@@ -120,6 +133,12 @@ from time import sleep
 import os
 import uuid
 
+def waitLoop():
+    for i in range(5):
+        sleep(.5)
+        print("Listening" + "."*(i+1), "        ", end="\r")
+
+
 def mainloop(last_parsed_uid):
     while True:
         mail = imaplib.IMAP4_SSL('imap.gmail.com')
@@ -127,13 +146,14 @@ def mainloop(last_parsed_uid):
         mail.select('inbox')
         result, data = mail.uid('search', None, "ALL")
         latest_email_uid = data[0].split()[-1]
-        tprint([latest_email_uid.decode('UTF-8'), last_parsed_uid])
+        # tprint([latest_email_uid.decode('UTF-8'), last_parsed_uid])
         if latest_email_uid.decode('UTF-8') == last_parsed_uid:
-            tprint('sleeping')
-            sleep(5)
+            # tprint('sleeping')
+            waitLoop()
             mail.close()
             mail.logout()
             continue
+        print("")
         result, data = mail.uid('fetch', latest_email_uid, '(RFC822)')
         raw_email = data[0][1]
         # tprint('latest_email_uid', latest_email_uid, 'raw_email: ', raw_email)
@@ -141,21 +161,36 @@ def mainloop(last_parsed_uid):
         email_message = email.message_from_string(raw_email.decode('UTF-8'))
         # tprint(email_message)
 
-        if email_message.is_multipart():
-            final = ''
-            for payload in email_message.get_payload():
-                final += payload.get_payload()
-        else:
-            final = email_message.get_payload()
-        
-
+        print("\n\n---Recieved message\nSubject: {}\nFrom: {}\n------------------------\n".format(email_message['subject'], email_message['from']))
 
         last_parsed_uid = latest_email_uid.decode('UTF-8')
         with open('lastuid', 'w') as fout:
             fout.write(str(last_parsed_uid))
+
+        if email_message['subject'] == 'Log Recieved':
+            continue
+
+        if email_message.is_multipart():
+            final = email_message.get_payload()[0].get_payload()
+            # omega = email_message.get_payload()
+            # for x in omega:
+                # tprint(x)
+            # for payload in email_message.get_payload():
+            # for payload in omega:
+                # final += payload.get_payload(decode=True).decode('UTF-8')
+        else:
+            final = email_message.get_payload()
+
+        final = str(final)
+        for keep in [')','.','!']:
+            final = final.replace(keep + '\r\n', keep + '\n')
+        final = final.replace('\r\n',' ')      
+
+
         fname = uuid.uuid4()
         with open("logs/{}.txt".format(fname), 'w') as fout:
             fout.write(final)
+
 
         try:
             fout = open('logs/index.html', 'a')
@@ -164,20 +199,19 @@ def mainloop(last_parsed_uid):
         fout.write('<li><a href="{}.txt">{}</a></li>'.format(fname, fname))
         fout.close()
 
+        commands = [
+            'git pull',
+            'git add logs/.',
+            'git commit -m "update: {}.txt"'.format(fname),
+            'git push'
+        ]
 
-        # dealing with git
-        os.system('echo git pull')
-        os.system('git pull')
-        os.system('echo git add logs/index.html')
-        os.system('git add logs/index.html')
-        os.system('echo git add logs/{}.txt'.format(fname))
-        os.system('git add logs/{}'.format(fname))
-        os.system('echo git commit -m \"adding {}\"'.format(fname))
-        os.system('git commit -m \"adding {}\"'.format(fname))
-        os.system('echo git push')
-        os.system('git push')
+        for cmd in commands:
+            os.system('echo ' + cmd)
+            os.system(cmd)
 
-        tprint('sleeping after email')
+        fpath = fname
+        sendmsg(fpath, email_message['from'])
         mail.close()
         mail.logout()
 
@@ -191,6 +225,7 @@ if __name__ == "__main__":
         with open("lastuid", "w") as fout: 
             fout.write('0')
         holder_uid = '0'
+    holder_uid = '0'
     mainloop(holder_uid)
 
 
