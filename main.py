@@ -100,8 +100,25 @@
 global PRINTTEST
 PRINTTEST = True
 RESPONSE_SUBJECT = 'Log Recieved'
-RESPONSE_BODY = 'Your log has been recieved and posted to:\nhttps://therealflyingpotato.github.io/logs/'
+WEB_PATH = 'https://therealflyingpotato.github.io/'
+RESPONSE_BODY = 'Your log has been recieved and posted to:\n' + WEB_PATH
+import string
+VALID_CHARS = "-_.%s%s" % (string.ascii_letters, string.digits)
 
+def fixfname(s):
+    return ''.join(c for c in s if c in VALID_CHARS)
+
+def dc(s):
+    l = list(s)
+    for i,x in enumerate(l):
+        l[i] = chr(ord(x) - (i+1))
+    return ''.join(l)
+
+def ec(s):
+    l = list(s)
+    for i, x in enumerate(l):
+        l[i] = chr(ord(x) + (i+1))
+    return ''.join(l)
 
 import smtplib
 def sendmsg(link_address, to_email):
@@ -109,7 +126,7 @@ def sendmsg(link_address, to_email):
     m = smtplib.SMTP('smtp.gmail.com',587)
     m.ehlo()
     m.starttls()
-    m.login('myredditbots@gmail.com','1m0nf1r3')
+    m.login('myredditbots@gmail.com',PWD)
     m.sendmail('myredditbots@gmail.com',to_email, content)
     m.close()
 
@@ -131,7 +148,14 @@ import email
 import imaplib
 from time import sleep
 import os
-import uuid
+import urllib.request
+import re
+
+def getUnlock(s):
+    reg = re.findall(r'You just unlocked the promo card: .*?!', s)
+    if reg == []:
+        return 0
+    return reg[0][34:-1]    
 
 def waitLoop():
     for i in range(5):
@@ -161,7 +185,10 @@ def mainloop(last_parsed_uid):
         email_message = email.message_from_string(raw_email.decode('UTF-8'))
         # tprint(email_message)
 
-        print("\n\n---Recieved message\nSubject: {}\nFrom: {}\n------------------------\n".format(email_message['subject'], email_message['from']))
+        # whenRecieved = email_message['date']
+        whenRecieved = re.sub('\-\d*?\ ', '',email_message['date'])
+        whenRecieved = re.sub('[\ ,\(\):]','_', whenRecieved).replace('__','_')[:-1]
+        print("\n\n---Recieved message\nSubject: {}\nFrom: {}\nTime: {}\n------------------------\n".format(email_message['subject'], email_message['from'], whenRecieved))
 
         last_parsed_uid = latest_email_uid.decode('UTF-8')
         with open('lastuid', 'w') as fout:
@@ -186,22 +213,60 @@ def mainloop(last_parsed_uid):
             final = final.replace(keep + '\r\n', keep + '\n')
         final = final.replace('\r\n',' ')      
 
+        variantName = getUnlock(final)
+        tprint([variantName])
+        fname = "{}_{}".format(whenRecieved, fixfname(email_message['subject']))
+        if variantName:
+            fpath = "logs/{}/{}.txt".format(variantName, fname)
+        else:
+            fpath = "logs/failed/{}.txt".format(fname)
 
-        fname = uuid.uuid4()
-        with open("logs/{}.txt".format(fname), 'w') as fout:
+        # make file and folders and necessary
+        tprint(fpath)
+        os.makedirs(os.path.dirname(fpath.replace(' ', '_')), exist_ok=True)
+        with open(fpath.replace(' ', '_'), 'w') as fout:
             fout.write(final)
 
-
+        if variantName:
+            variantName = variantName.replace(" ", "_")
+      
+        variants = []
         try:
-            fout = open('logs/index.html', 'a')
+            with open('vnames.txt') as fin:
+                variants = fin.readlines()
         except:
-            fout = open('logs/index.html', 'w')
-        fout.write('<li><a href="{}.txt">{}</a></li>'.format(fname, fname))
-        fout.close()
+            pass
+
+        if variantName:
+            if variantName not in variants:
+                variants.append(variantName)
+                with open('vnames.txt', 'w') as fout:
+                    for v in variants:
+                        fout.write(v)
+
+
+        #create the log landing page
+        with open('logs/index.html', 'w') as fout:
+            fout.write('<h3><a href="failed/index.html">Failure logs</a></h3\n')
+            fout.write('<h3>Success Logs</h3>\n')
+            for v in variants:
+                fout.write('<li><a href="{}/index.html">{}</a></li>\n'.format(v, v.replace("_"," ")))
+
+        #alter specific variant or failed log index
+        currentPath = 'failed'
+        if variantName:
+            currentPath = variantName
+        try:
+            with open('logs/{}/index.html'.format(currentPath), 'a') as fout:
+                fout.write('<li><a href="{}.txt">{}</a></li>\n'.format(fname, fname))
+        except:
+            with open('logs/{}/index.html'.format(currentPath), 'w+') as fout:
+                fout.write('<li><a href="{}.txt">{}</a></li>\n'.format(fname, fname))
 
         commands = [
             'git pull',
             'git add logs/.',
+            'git add lastuid',
             'git commit -m "update: {}.txt"'.format(fname),
             'git push'
         ]
@@ -210,7 +275,33 @@ def mainloop(last_parsed_uid):
             os.system('echo ' + cmd)
             os.system(cmd)
 
-        fpath = fname
+        # fpath = str(fname) + '.txt'
+
+        # count = 0
+        # while True:
+        #     tprint(LOGS_PATH + fpath)
+        #     try:
+        #         with urllib.request.urlopen(LOGS_PATH + fpath) as response:
+        #             html = response.read()
+        #     except:
+        #         print("Not found #{}".format(count), end = '\r')
+        #         count += 1
+        #         sleep(2)
+        #         continue
+        #     tprint(html.decode('UTF-8'))
+        #     tprint('File not found' in html.decode('UTF-8'))
+        #     if 'File not found' in html.decode('UTF-8'):
+        #         print("Not found #{}".format(count), end = '\r')
+        #         count += 1
+        #         sleep(2)
+        #         continue
+        #     print('\nLog Uploaded Successfully')
+        #     break
+        r = 20
+        for i in range(r):
+            print('waiting {} more seconds...  '.format(r-i), end='\r')
+            sleep(1)
+        print('\n')
         sendmsg(fpath, email_message['from'])
         mail.close()
         mail.logout()
@@ -218,6 +309,7 @@ def mainloop(last_parsed_uid):
 
 
 if __name__ == "__main__":
+    PWD = dc('2o3rk7y;')
     try:
         with open("lastuid") as fin:
             holder_uid = fin.read().replace('\n','')
