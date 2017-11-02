@@ -142,6 +142,7 @@ def tprint(*args):
         for x in args:
             print(x, ' ')
         print('=={}==\n'.format("="*len(str(tprint.count))))
+    return '::'
 tprint.count = 0
 
 import email
@@ -214,7 +215,6 @@ def mainloop(last_parsed_uid):
         final = final.replace('\r\n',' ')      
 
         variantName = getUnlock(final)
-        tprint([variantName])
         fname = "{}_{}".format(whenRecieved, fixfname(email_message['subject']))
         if variantName:
             fpath = "logs/{}/{}.txt".format(variantName, fname)
@@ -222,7 +222,8 @@ def mainloop(last_parsed_uid):
             fpath = "logs/failed/{}.txt".format(fname)
 
         # make file and folders and necessary
-        tprint(fpath)
+        
+        # tprint(fpath)
         os.makedirs(os.path.dirname(fpath.replace(' ', '_')), exist_ok=True)
         with open(fpath.replace(' ', '_'), 'w') as fout:
             fout.write(final)
@@ -236,6 +237,7 @@ def mainloop(last_parsed_uid):
                 variants = fin.readlines()
         except:
             pass
+        
 
         if variantName:
             if variantName not in variants:
@@ -244,13 +246,15 @@ def mainloop(last_parsed_uid):
                     for v in variants:
                         fout.write(v)
 
-
+        
         #create the log landing page
         with open('logs/index.html', 'w') as fout:
             fout.write('<h3><a href="failed/index.html">Failure logs</a></h3\n')
             fout.write('<h3>Success Logs</h3>\n')
             for v in variants:
+                # tprint(v)
                 fout.write('<li><a href="{}/index.html">{}</a></li>\n'.format(v, v.replace("_"," ")))
+        
 
         #alter specific variant or failed log index
         currentPath = 'failed'
@@ -262,6 +266,7 @@ def mainloop(last_parsed_uid):
         except:
             with open('logs/{}/index.html'.format(currentPath), 'w+') as fout:
                 fout.write('<li><a href="{}.txt">{}</a></li>\n'.format(fname, fname))
+        
 
         commands = [
             'git pull',
@@ -297,12 +302,12 @@ def mainloop(last_parsed_uid):
         #         continue
         #     print('\nLog Uploaded Successfully')
         #     break
-        r = 20
+        r = 15
         for i in range(r):
             print('waiting {} more seconds...  '.format(r-i), end='\r')
             sleep(1)
         print('\n')
-        sendmsg(fpath, email_message['from'])
+        sendmsg(fpath.replace(' ','_'), email_message['from'])
         mail.close()
         mail.logout()
 
