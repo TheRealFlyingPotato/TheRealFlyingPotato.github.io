@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  </style> 
+</head>
+<body>
+
+
+<div id="top">
+
+  <div id = "menuButtons">
+    <input type = "button" onclick="showSituation(0);" this.value = "" value="Show Situation 0">    
+    <input type = "button" onclick="toggleDecisions();" this.value = "" value="Toggle Decisions">    
+    <!-- <div id="contDiv" onclick="showSituation(0)">Show Sits 0</div>
+    <div id="contDiv" onclick="toggleDecisions()">Toggle D.</div> -->
+  </div>
+  <div id = "topText">
+    <div class="textHolder"></div>      
+  </div>
+</div>
+<div id = "decisions">
+  <div class="section">
+    <div id="choice0" class="inner" onclick="gotoExplanation(0)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  <div class="section">
+    <div id="choice1" class="inner" onclick="gotoExplanation(1)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  <div class="section">
+    <div id="choice2" class="inner" onclick="gotoExplanation(2)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  <div class="section">
+    <div id="choice3" class="inner" onclick="gotoExplanation(3)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  </div>
+  <div id = "menu">
+    <div class="halfSection">
+      <div class = "inner noclick">
+        <div class = "textHolder" id = "narrative">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer magna nunc, sollicitudin sed metus sed, congue tincidunt magna. Fusce ut elit in tellus mattis malesuada. Proin ultrices orci id pretium lobortis. Fusce sed metus hendrerit erat fermentum consectetur a vel mauris. Aenean efficitur consectetur vehicula. In mi sem, suscipit et fermentum eu, congue sit amet enim. Suspendisse aliquet condimentum nisl. Nam odio quam, consequat volutpat justo sed, molestie eleifend ipsum. Donec sed felis feugiat turpis pretium mattis iaculis vel turpis. Vestibulum malesuada fringilla nulla, nec vestibulum odio efficitur ac.
+            <br><br>
+            Donec efficitur fermentum blandit. Praesent convallis nisi eget cursus eleifend. Proin eros elit, laoreet ut congue et, convallis at odio. Praesent fringilla porta egestas. Nulla scelerisque accumsan diam, eu euismod augue molestie ac. Nam pretium, sapien at vestibulum rhoncus, justo ligula hendrerit orci, in consectetur est risus vitae libero. Ut lacinia dolor quis fringilla ullamcorper. Vestibulum mattis porttitor lacus, quis commodo erat.
+            <br><br>
+            Integer et hendrerit nunc, eu accumsan eros. Nulla eleifend, arcu non vehicula maximus, urna magna scelerisque turpis, eu venenatis leo est at urna. Mauris pellentesque est odio, at pulvinar ex lobortis ac. Praesent consequat ipsum quis risus vehicula pellentesque. Vivamus id porttitor sapien. Nullam dui neque, tincidunt eget feugiat non, ullamcorper in tellus. Donec at lacus pretium, viverra sapien et, porttitor purus. Sed rhoncus justo ac vehicula luctus. Mauris commodo lectus tortor, sed tempor nunc auctor et. Morbi ut augue eget neque bibendum vulputate eget et urna. Sed id est vitae dolor elementum aliquam in interdum nibh. Etiam ultricies accumsan mauris eget posuere. Vivamus sollicitudin massa nec mauris condimentum accumsan ac eget tellus. Quisque non massa congue, dictum dolor sit amet, congue elit. Cras placerat eros at lectus ultricies feugiat. Proin et sem condimentum mi euismod congue. 
+        </div>
+      </div>
+    </div>
+    <div class="halfSection">
+      <div class = "inner"  onclick="onward()">
+        <div class = "textHolder" id = "continue">Click here to start!</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container-fluid">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p>
+
+  <div class="row">
+    <div class="col-sm-4"><mark>.col-sm-4</mark></div>
+    <div class="col-sm-4 text-success bg-warning">.col-sm-4</div>
+    <div class="col-sm-4 bg-danger">.col-sm-4</div>
+  </div> 
+
+  <blockquote>
+    <p>Lorem ipsum, <code>dolor</code> sit amet consectetur adipisicing elit. Iste minus explicabo facere at debitis placeat a porro eos hic! Impedit perspiciatis esse atque praesentium placeat consequatur minima aut distinctio ut.</p>
+    <small>LOREM</small>
+  </blockquote>
+  <img class="img-responsive" src="https://cdn.theatlantic.com/assets/media/img/2015/09/30/BOB_Boxer_Peanuts_Opener_HP/1920.jpg?1443632690" alt="Chania"> 
+</div> -->
+
+
+
+</body>
+</html> 
