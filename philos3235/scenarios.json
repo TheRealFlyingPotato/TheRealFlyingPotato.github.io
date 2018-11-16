@@ -2,20 +2,21 @@
   "all" : 
   [
     {
-      "title": "title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 title 0 ",
+      "title": "Situation explanation",
       "choices" : 
       [ 
-        " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus mauris mi, sit amet accumsan ligula porta vitae. Ut sodales eleifend tellus, nec viverra eros cursus nec. Duis vel tempor tortor. Mauris nec libero ex. Sed at metus justo. Quisque pretium, risus nec interdum vehicula, velit augue dapibus purus, at consequat dolor velit non enim. Ut ut enim auctor, semper lectus vitae, pharetra ante. Aliquam egestas ante sit amet leo convallis dictum. Quisque gravida turpis turpis. Quisque eu lacus et orci viverra commodo ac ut libero. Ut non elit erat. Fusce vel facilisis elit. ",
-        " Ut molestie et nibh sed blandit. Phasellus egestas fermentum est vitae condimentum. Aenean ullamcorper faucibus sapien, non congue eros pharetra eu. Cras egestas sagittis neque et sagittis. Maecenas non est lacus. Integer varius risus sed neque aliquam iaculis. Mauris ultrices lectus eget turpis imperdiet pharetra. In et lacinia augue. Etiam ligula quam, dapibus auctor scelerisque eget, tincidunt vitae orci. Sed bibendum porttitor vulputate. Cras eget semper quam. Integer malesuada porta nibh, sit amet malesuada justo aliquam ut. Phasellus leo ante, mollis sed eleifend vel, vulputate nec felis. Quisque dolor ligula, imperdiet eu dignissim id, egestas quis est. ",
-        " Cras nibh velit, finibus ut ultricies in, bibendum eget nisi. Nulla sit amet sollicitudin erat. Integer ut finibus elit, non semper eros. Morbi mollis tortor in nulla ultricies ultricies. Nulla bibendum, turpis in interdum sagittis, felis magna sollicitudin justo, id commodo eros lectus interdum sapien. Nam ante metus, tristique a accumsan a, imperdiet eget ex. Curabitur sollicitudin consequat mi a sagittis. Proin felis sem, laoreet sit amet mollis nec, hendrerit in augue. ",
-        " Nunc blandit, diam viverra venenatis semper, erat purus sollicitudin elit, gravida rhoncus lectus metus eget tortor. Morbi sit amet elit non massa hendrerit aliquet quis et risus. Donec eu varius erat. Duis lobortis nibh ac efficitur accumsan. Nunc lobortis ligula est, vitae ornare nisl varius id. Nam maximus urna ac faucibus imperdiet. Curabitur placerat mi non mauris semper malesuada. Aenean consectetur ullamcorper ipsum, vel rutrum mauris varius nec. Mauris a efficitur arcu, quis tempus ligula. Nunc volutpat eleifend ultricies. Nam arcu dui, bibendum quis posuere non, egestas quis orci. Praesent eleifend et libero id efficitur. "
+        "Option 1",
+        "Option 2<br>newline"
       ],
       "exp" :
       [
-        "exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 exp 1 ",
-        "exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 exp 2 ",
-        "exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 exp 3 ",
-        "exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 exp 4 "
+        "exploration of option 1",
+        "exploration of option 1"
+      ],
+      "ruleUtil" :
+      [
+        1,
+        0
       ]
     }
   ]
