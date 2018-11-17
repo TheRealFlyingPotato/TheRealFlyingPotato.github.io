@@ -18,7 +18,7 @@ html, body
   height: 100%; 
   padding: 1%; 
   margin: 0;
-  background: #111111;
+  background-color: #221111;
   -webkit-user-select: none; /* Safari */        
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
@@ -54,13 +54,21 @@ html, body
 { 
   background: #303030;
   /* margin: 5px; */
-  width: 50%; 
   height: 100%; 
   float: left;
   border-radius: 25px;
   padding:4px;
 }
 
+.left
+{
+  width: 75%;
+}
+
+.right
+{
+  width: 25%;
+}
 
 
 #contDiv
@@ -166,21 +174,64 @@ html, body
 {
   width: 55%;
   height: 54px;
-  background: purple;
+  background: darkred;
   border-style: solid;
   border-color: black;
   border-width: 4px;
   /* float: center; */
   margin: 0 auto;
   display: table;
+  top : 30%;
+  transform: translateY(-80%);
 }
 
 #innerbar
 {
   width: 55%;
   height: 54px;
-  background: red;
+  background: darkcyan;
   /* float: center; */
   /* margin: 0 auto; */
   /* display: table; */
+}
+
+#statsHolder
+{
+  width: 55%;
+  height: 54px;
+  /* float: center; */
+  margin: 0 auto;
+  display: table;
+  transform: translateY(-80%);
+  top:40%;  
+}
+
+#ruleStat
+{
+  float:left;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#actStat
+{
+  font-weight: bold;
+  font-size: 18px;
+  float:right;
+}
+
+#gameOverMsg
+{
+  position: relative;
+  padding: 10px;
+  font-size: 15px;
+  top: 30%;
+  transform: translateY(-80%);
+  text-align: center;
+}
+
+a
+{
+  color: purple;
+  font-size: 12px;
 }
