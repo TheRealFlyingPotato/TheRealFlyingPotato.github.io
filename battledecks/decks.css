@@ -1,0 +1,40 @@
+div {
+  width : 100%;
+  margin :3;
+  padding: 10;
+}
+.d-g {
+  background-color: grey
+}
+.l-g {
+  background-color: lightgray
+}
+body {
+  background-color: black;
+  margin:0%;
+}
+h3 
+{
+  margin :.5
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 15%;
+  /* height :100px; */
+  padding: 1px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
