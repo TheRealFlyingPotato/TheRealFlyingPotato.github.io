@@ -21,15 +21,41 @@ h3
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 15%;
+  max-width: 15%;
   /* height :100px; */
   padding: 1px;
+}
+
+.iconcolumn {
+  float: left;
+  max-width: 18px;
+  /* height :100px; */
+  padding: 0px;
+  margin: 0%;
 }
 
 img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+}
+
+.icon {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  /* /* display: block; */
+  /* padding: 0; */
+  /* margin: 0; */
+  max-width: 15px !important;
+  /* max-height: 3px !important; */
+  /* width: auto; */
+  /* height: auto; */
+}
+
+.iconrow {
+  padding: 0;
+  margin: 0;
 }
 
 /* Clear floats after image containers */
