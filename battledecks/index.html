@@ -5,7 +5,14 @@
     };
 
     document.addEventListener('DOMContentLoaded', function(){ 
-      window.alert(isMobileDevice())
+      if(isMobileDevice())
+      {
+        var icns = document.getElementsByClassName("icon");
+        for (i = 0; i < icns.length; i++) 
+        {
+          icns[i].style.display = "none";
+        }
+      }
     }, false);
 
   </script>
