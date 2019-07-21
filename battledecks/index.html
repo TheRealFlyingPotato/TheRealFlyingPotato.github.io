@@ -1,4 +1,14 @@
 <html>
+  <script>
+    function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    };
+
+    document.addEventListener('DOMContentLoaded', function(){ 
+      window.alert(isMobileDevice())
+    }, false);
+
+  </script>
   <head>
     <link rel="stylesheet" type="text/css" href="decks.css">
   </head>
