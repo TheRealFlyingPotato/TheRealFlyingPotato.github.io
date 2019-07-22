@@ -49,7 +49,7 @@ for key in sorted(data.keys()):
   htmlbody += "<div class=\"{}\">{}\n<div class=\"row iconrow\">{}</div><br>{}\n<br> <div class=\"row\">{}</div> </div>\n".format(['d-g','l-g'][greytoggle], header, coloricons, content, imgs)
   greytoggle = not greytoggle
 
-with open('decks.html', 'w') as fout:
+with open('index.html', 'w') as fout:
   fout.write(htmlheader + htmlbody + htmlfooter)
 
-print("\n\ndecks.html written\n")
+print("\n\nindex.html written\n")
