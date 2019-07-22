@@ -1,0 +1,130 @@
+{  
+  "_template":
+  {
+    "url" : "",
+    "desc" : "",
+    "colors": ""
+  },
+  "Conduit Sagas": 
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2104808#paper",
+    "desc" : "This deck focuses on using [[Power Conduit]] along with [[Chainer's Torment]] to repeatedly drain life from your opponents. [[The Eldest Reborn]] is another way for [[Power Conduit]] to be abused, while cards such as [[Ill-Gotten Inheritance]], [[Defiant Bloodlord]], and [[Agent of Masks]] assist in the draining.",
+    "colors": "WB"
+  },
+  "Gates":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2097698#paper",
+    "desc" : "A 5-color battle deck? Yessir! This deck uses 22 guildgates (such as [[Azorius Guildgate]]) and takes advantage of them with [[Gatebreaker Ram]], [[Gate Colossus]], [[Guild Summit]], and [[Archway Angel]].",
+    "colors": "WUBRG"
+  },
+  "Golgari Sherei":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2095155#paper",
+    "desc" : "This deck focuses around using [[Shirei, Shizo's Caretaker]] to generate lots of value with cards like [[Sakura-Tribe Elder]], [[Deep Forest Hermit]], and [[Elvish Visionary]]. Bringing these cards back over and over with Sherei's ability and sacrificing to themselves or to [[Bloodthrone Vampire]] allows for an engine that's bound to take over the game. Also, [[Fecundity]] because [[Fecundity]].",
+    "colors": "BG"
+  },
+  "Flicker Drake":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2095350#paper",
+    "desc" : "This combo / light control deck seeks to combo off with [[Peregrine Drake]], [[Ghostly Flicker]], and [[Archaeomancer]]. These three generate infinte mana, allowing you to draw your deck with [[Sea Gate Oracle]], the make everyone else lose with [[Blue Sun's Zenith]].",
+    "colors": "U"
+  },
+  "Midnight Gond Combo":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2095296#paper",
+    "desc" : "Do you like tokens? How about a lot of tokens? This deck aims to make all the tokens you can dream of with [[Presence of Gond]] attached to [[Midnight Guard]]. Use [[Commune with the Gods]] to get there and [[Soul Warden]] to get loads of life from your tokens hitting the field.",
+    "colors": "WG"
+  },
+  "Izzet Weenies":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2095717#paper",
+    "desc" : "This deck revolves around the card [[Cavalcade of Calamity]]. Play a bunch of small dispensable creatures ([[Dragon Fodder]], [[Goblin Gathering]]) or hard to block boys ([[Ornithopter]], [[Slither Blade]]) and swing in.",
+    "colors": "UR"
+  },
+  "Simic Superfriends":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2096824#paper",
+    "desc" : "You heard me right - thanks to War of the Spark, 10$ superfriends is a thing. [[Jiang Yanggu, Wildcrafter]], [[Vraska, Swarm's Eminence]], [[Arlinn, Voice of the Pack]], and (if you're lucky) [[Nissa, Voice of Zendikar]] do some work. Proliferate effects such as [[Thrummingbird]] keep your Planeswalkers going and [[Mowu, Loyal Companion]] just might be enough to topple your opponent's life total.",
+    "colors": "UG"
+  },
+  "Simic Ascendancy":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2097593#paper",
+    "desc" : "Opponent seems to have a million life? Or maybe they really do? Who cares! [[Simic Ascendancy]] sure doesn't. Play cards that give themselves counters like [[Chronomaton]] and [[Heroes' Bane]], ramp with [[New Horizons]], and hope you gret the copy of [[Wilderness Reclamation]] to end the game without ever touching your opponent's life total.",
+    "colors": "UG"
+  },  
+  "Selesnya Enchantress":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2097540#paper",
+    "desc" : "Out-value your oppoenents in this Enchantress deck. With 8 [[Satyr Enchanter]] type effects, you're bound to hit your [[Starfield Mystic]] and [[Sigil of the Empty Throne]] to start pumping out more angels than you can count.",
+    "colors": "WG"
+  },
+  "Saproling Swarm":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2097751#paper",
+    "desc" : "Time to chuck out a bunch of 1/1s with this Saproling deck. Early game, use [[Saproling Migration]] and [[Yavimaya Sapherd]] to get started. Later, hope for [[Arcane Melee]] and [[Memory Crystal]] to let you cast [[Whispers of the Muse]] and [[Sprout Swarm]] over and over and over, running over your opponent with an army of small plants.",
+    "colors": "UG"
+  },
+  "Golgari Desecrated Tomb":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2100347#paper",
+    "desc" : "What? [[Desecrated Tomb]]. How? [[Reassembling Skeleton]] and [[Bloodsoaked Champion]] as the conduits, [[Culling Dais]] and [[Bloodflow Connoisseur]] to keep doing it. Make a bunch of bats, swing in for lots of damage. If you need more lands or more creatures,  [[Evolutionary Leap]] and [[Perilous Forays]] are your friends.",
+    "colors": "BG"
+  },
+  "Dimir Ninjas":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2103465#paper",
+    "desc" : "Become one with your stealthy side and play the ninja deck at the table. [[Slither Blade]] or [[Ornithopter]] on turn one, then [[Ingenious Infiltrator]] the next turn to start drawing cards. [[Fallen Shinobi]] to... borrow... your opponent's cards, then [[Ninja of the New Moon]] to deal massive damage.",
+    "colors": "UB"
+  },
+  "Barely Blue Myr Mirrorworks Combo":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2101532#paper",
+    "desc" : "Possibly the most convuluted deck on this page, this beautiful deck that has almost no color in it shines bright with its Myr. [[Mirrorworks]] is the most fun card in this deck. The rest of the combo consists of [[Myr Galvanizer]], [[Palladium Myr]], [[Thermal Navigator]], and [[Workshop Assistant]]. There's another combo that uses [[Powerstone Shard]]. Not going to explain everything on here, if you can figure it out, good for you!",
+    "colors": "U"
+  },
+  "Mono-Blue Mystic Forge":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2103515#paper",
+    "desc" : "This artifact deck makes use of M20's [[Mystic Forge]]. Play this, Reduce artifact costs with [[Etherium Sculptor]], Make a bunch of tokens with [[Efficient Construction]] and [[Golem Foundry]], gain a bunch of life with [[Golem's Heart]], then do it all again with an [[Elixir of Immortality]].",
+    "colors": "U"
+  },
+  "Dictate Pingers":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2104359#paper",
+    "desc" : "<b>Warning: This deck could be very bad but also hilarious.</b> Aiming to play cards that tap to deal damage, such as [[Goblin Fireslinger]] and [[Vent Sentinel]], defend with walls for [[Vent Sentinel]] such as [[Fog Bank]], and play [[Dictate of the Twin Gods]] and pray that your damage output can beat your opponents.",
+    "colors": "UR"
+  },
+  "Mono-White Soul Sisters":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2096430#paper",
+    "desc" : "At the heart of this deck lies [[Soul Warden]] with a helping hand in [[Ajani's Welcome]] and [[Anointer Priest]]. Play a bunch of small creatures and tokens with [[Battle Screech]], [[Raise the Alarm]], and [[Doomed Traveler]], gain a lot of life with [[Angel of Vitality]], draw cards with [[Mentor of the Meek]], beat face. The end.",
+    "colors": "W"
+  },
+  "Dimir Amassing Wizards":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2097525#paper",
+    "desc" : "Wizards are a meddling bunch, and you love them. Get out your star player, [[Naban, Dean of Iteration]], and then throw down [[Aether Adept]] and [[Exclusion Mage]] to clear the way for your [[Gleaming Overseer]] and [[Vizier of the Scorpion]]'s abomination. [[Riverwise Augur]], [[Pondering Mage]], and [[Azami, Lady of Scrolls]] keep your hand filled with cards while your opponents weep at your power.",
+    "colors": "UB"
+  },
+  "Approach of the Sunbird":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2098327#paper",
+    "desc" : "The point of this deck is to cast [[Sunbird's Invocation]] and then [[Approach of the Second Sun]], thus winning you the game. Get lots of mana with a pile of mana rocks, getting you to the spells listed above or, if you can't hit those, a couple of [[Ulamog's Crusher]]s should be enough to end your opponent's misery as well.",
+    "colors": "WR"
+  },
+  "Risen Reef Elementals":
+  {
+    "url" : "https://www.mtggoldfish.com/deck/2112847#paper",
+    "desc" : "This deck, fixating around [[Risen Reef]], takes advantage of all the elementals to generate tons of card draw and ramp. Use [[Scampering Scorcher]] to make a bunch at once, swing in with [[Tilonalli's Summoner]] to make a ton more, and hopefully reuse [[Molten Birth]] over and over again.",
+    "colors": "URG"
+  },
+  "_mana_urls": 
+  {
+    "W": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/8e/W.svg?version=d74ba6b898f8815799b1506eb06fdf74",
+    "U": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/9/9f/U.svg?version=f798d6a151a43adc05e23e534adea262",
+    "B": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/2/2f/B.svg?version=ce85e9f6be68b450719ddd2f2ad08548",
+    "R": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/87/R.svg?version=60170f319a53b4c3410c43cdbb95699f",
+    "G": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/88/G.svg?version=cf85f35170391f8fbeb037dc18cc3c50"
+  }
+}
