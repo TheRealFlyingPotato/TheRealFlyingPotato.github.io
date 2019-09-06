@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choices</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+  </style> 
+</head>
+<body>
+
+
+<div id="top">
+
+  <div id = "menuButtons">
+    <input type = "button" onclick="gameOver();" this.value = "" value="Game Over">    
+    <!-- <div id="contDiv" onclick="showSituation(0)">Show Sits 0</div>
+    <div id="contDiv" onclick="toggleDecisions()">Toggle D.</div> -->
+  </div>
+  <div id = "topText">
+    <div class="textHolder"></div>      
+  </div>
+</div>
+<div id = "decisions" class = "sectionHolder">
+  <div class="section">
+    <div id="choice0" class="inner" onclick="gotoExplanation(0)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  <div class="section">
+    <div id="choice1" class="inner" onclick="gotoExplanation(1)">
+      <div class="textHolder"></div>
+    </div>
+  </div>
+  </div>
+  <div id = "menu" class = "sectionHolder">
+    <div class="halfSection left">
+      <div class = "inner noclick">
+        <div class = "textHolder" id = "narrative">
+        </div>
+      </div>
+    </div>
+    <div class="halfSection right">
+      <div class = "inner"  onclick="onward()">
+        <div class = "textHolder" id = "continue">Click here to start!</div>
+      </div>
+    </div>
+  </div>
+  <div id = "endgame" class = "sectionHolder">
+    <div id = "endTop">
+      <div class = "inner noclick">
+        <div id="statsHolder" class = "textHolder">
+          <div id="ruleStat">Rules 1</div>
+          <div id="actStat">Util 2</div>
+        </div>
+        <div class = "textHolder">
+          <div id = "statsbar">
+            <div id ="innerbar">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id = "endBottom">
+      <div class = "inner">        
+        <div class = "textHolder" onclick = "gotoMenu()">
+          Click here to have another go!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html> 

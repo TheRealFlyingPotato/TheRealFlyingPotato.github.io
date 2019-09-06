@@ -1,0 +1,113 @@
+{
+  "all" : 
+  [
+    {
+      "title": "Jenny is reviewing a number of potential hirees for a job position. She reviews a number of candidates, finally settling on two. She knows the first one is probably more qualified and better for the position, but the other is a close relative. She knows the company policy against nepotism, but doesn't really think that it will cause any harm if she hires her relative. What should Jenny do?",
+      "choices" : 
+      [ 
+        "Hire her relative. It won't actually cause any harm to the company, and it will make her relative quite happy knowing that she hired her.",
+        "Stick to company policy and hire the other person."
+      ],
+      "exp" :
+      [
+        "This is the act utilitarian option. Everyone is happy, Jenny don't displease her relative, and she still hired someone good for the company.",
+        "This is the rule utilitarian option. Even though hiring her relative might still be a good option, it's not the best option. Following the policy against nepotism will end up better in the long run."
+      ],
+      "ruleUtil" :
+      [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Mark is the CEO of a cafe chain. Recently, police were called on a pair of people who weren't customers but were just waiting to meet someone else. The company's current policy is to leave decisions on whether or not non-customers are allowed to hang around up to each individual cafe, but some people are complaining because of this incident. What should Mark do?",
+      "choices" : 
+      [ 
+        "Change the policy company-wide to not allow non-customers to hang around the store.",
+        "Leave the policy as is, permitting each individual store to handle incidents as they see fit."
+      ],
+      "exp" :
+      [
+        "This is the choice of a proactive rule utilitarian. Putting a rule in place that affects everything, that tries to account and cover for every situation in general, is exactly what a rule utilitarian would do.",
+        "Leaving the policy as is lets each individual location take care of their own situation. This is a very good example of act utilitarianism, since each individual store can take into account what's going on with their unique surroudings and incidents."
+      ],
+      "ruleUtil" :
+      [
+        1,
+        0
+      ]
+    },
+    {
+      "title": "Maurice is a nurse serving on a nighttime shift at a hospital. One of the patients he monitors is requesting a transfer to another floor to be closer to a family member in another room. The floor is reserved for higher priority patients, but at the moment there are plenty of other rooms on that floor. What should Maurice do?",
+      "choices" : 
+      [ 
+        "Maurice shouldn't allow the patient to transfer. Even though it wouldn't cause a problem this time, it may cause issues later if another patient wants to transfer and can't.",
+        "Maurice should let the patient transfer. It won't be causing a problem right now, and one of the goals of health care providers is the comfort of their patients."
+      ],
+      "exp" :
+      [
+        "Following the rule ensures that there aren't room conflicts and thus is should be applied always. This is the rule utilitarian option.",
+        "This is the act utilitarian option. While there may be an issue at some other time with using that room, there's no reason to not allow it in this instance to make the patients happier."
+      ],
+      "ruleUtil" :
+      [
+        1,
+        0
+      ]
+    },
+    {
+      "title": "Adam is a surgeon with five patients. One needs a heart, another needs a lung, two need kidneys, and the last needs a liver. Adam knows that these patients will die before their name comes up on the transplant list. The doctor's neighbor has a no family, is a complete recluse, a jerk, noone would miss him if he disappeared, and is a match for all five of his transplant patients. What should the Adam do?",
+      "choices" : 
+      [ 
+        "Adam should take his neighbor and harvest the needed organs to save his patients.",
+        "Ignoring the fact that he has a way to save all his patients, Adam should leave his neighbor alone and let his patients die."
+      ],
+      "exp" :
+      [
+        "This choice presents the most overall happiness and prevents the the most pain possible. Even at the cost of a life, this choice saves five other lives. This is the choice of the act utilitarian, because even though Adam would be breaking the rules, he would produce as much hapiness as possible with this action.",
+        "This choice is the choice of the rule utilitarian. By following the rule - the probably important one of not taking an innocent life - Adam will hold the consequences of that rule being applied in general over only his specific case."
+      ],
+      "ruleUtil" :
+      [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Lindsey has been asked to write a self-evaluation. This evaluation could result in her possibly getting a raise if she reviews herself well enough. Lindsey knows she could've performed better during the year, but she doesn't want to put her shortcomings on her review. She knows she will be the only one who knows the difference. What should Lindsey do?",
+      "choices" : 
+      [ 
+        "Lindsey should answer fully and honestly, even though it may result in her not getting a pay raise.",
+        "Lindsey should leave off some of her shortcomings. It doesn't hurt anyone not to know, and it will greatly increase her chances of getting a raise."
+      ],
+      "exp" :
+      [
+        "In general, being honest is the best policy for a rule utilitarian. Thus, even though it may hurt Lindsey at this moment to be transparent on her evaluation, she should still do so.",
+        "This single act is going to bring the most hapiness. Since it doesn't harm anyone else, it's the best choice for Lindsey at the moment to not reveal some short-comings for the sake of looking a little better on the evaluation."
+      ],
+      "ruleUtil" :
+      [
+        1,
+        0
+      ]
+    },
+    {
+      "title": "Jared is a hall monitor at a school. During a period where students aren't supposed to be in the hall without a pass, he comes across a student with an obviously bloody nose, headed towards the nurses office. He can tell she doesn't have a pass. What should Jared do?",
+      "choices" : 
+      [ 
+        "Ask for a pass, and write her up for discipline if she doesn't have one. Rules are rules.",
+        "Rules are rules... but this is obviously an emergency. Let her go."
+      ],
+      "exp" :
+      [
+        "This is definitely a rule utilitarian decision. Even though it may suck for the student, if Jared were to start allowing students to wander through the halls even with excuses, lots of problems will arise.",
+        "This is the epitome of act utilitarianism. At this very moment, not bothering the student will make her much happier. So leave her alone, Jared."
+      ],
+      "ruleUtil" :
+      [
+        1,
+        0
+      ]
+    }
+  ]
+}
