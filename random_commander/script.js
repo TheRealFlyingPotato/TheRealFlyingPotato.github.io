@@ -6,7 +6,7 @@ function gameOver()
     cList = result.data;
     console.log(cList);
     $("#imgs").empty();
-    for(i = 0; i < 2; i++) {
+    for(i = 0; i < 3; i++) {
       q = Math.floor(Math.random() * cList.length);
       card = cList[q];
       console.log(card)
