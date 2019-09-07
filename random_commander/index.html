@@ -1,8 +1,15 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js"></script>
+  <style>
+  img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}</style>
   <!-- <link rel="stylesheet" type="text/css" href="decks.css"> -->
 </head>
-<body>
-    <input type = "button" onclick="gameOver();" this.value = "" value="Game Over">  
+<body style="background-color: black" onload="gameOver();">
+    <!-- <input type = "button" onclick="gameOver();" this.value = "" value="Game Over"> -->
+    <div id="imgs"></div>
 </body>
