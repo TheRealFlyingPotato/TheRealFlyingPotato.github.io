@@ -10,7 +10,12 @@
 }</style>
   <!-- <link rel="stylesheet" type="text/css" href="decks.css"> -->
 </head>
-<body style="background-color: black" onload="gameOver();">
-    <!-- <input type = "button" onclick="gameOver();" this.value = "" value="Game Over"> -->
-    <div id="imgs"></div>
+<body style="background-color: black; color: whitesmoke">
+  <div id="inp">
+    <input type="text" id="mincost" name="name" size="20" placeholder="Min 0$"> <br>
+    <input type="text" id="maxcost" name="name" size="20" placeholder="Max .79$"> <br>
+    <input type="text" id="ci" name="name" size="20" placeholder="CI: WUBRG"> <input type="checkbox" name="exactCI" id="exactCI"> Exact Color Identity <br> <br>
+    <input type = "button" onclick="gameOver();" this.value = "" value="Get Random Commanders"> <br>
+  </div>
+  <div id="imgs"></div>
 </body>
