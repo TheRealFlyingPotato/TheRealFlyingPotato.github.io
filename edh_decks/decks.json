@@ -1,0 +1,76 @@
+{  
+  "_template":
+  {
+    "url" : "",
+    "desc" : "",
+    "colors": ""
+  },
+  "Muldrotha: Sultai Graveyard Lands": 
+  {
+    "url" : "",
+    "desc" : "Headed by [[Muldrotha, The Gravetide]] this deck plays a lot of lands and gets value from the graveyard. [[Tatyova, Benthic Druid]], [[The Gitrog Monster]] both provide lots of value, and cards like [[Null Profusion]] and [[Recycle]] Give lots of card draw.",
+    "colors": "UBG"
+  },
+  "Tana Tymna: Token Beatdown Soul Sisters":
+  {
+    "url" : "https://archidekt.com/decks/450753",
+    "desc" : "Wreck face by pumping up [[Tana, the Bloodsower]] and beating face with her and a token army. Also has a lot of lifegain shenanigans for the fun of it. Have fun with stuff like [[Ajani, Caller of the Pride]], [[Huatli, Radiant Champion]], [[Rith, the Awakener]] and [[Power Matrix]].",
+    "colors": "WBRG"
+  },
+  "Ghalta: Rawr":
+  {
+    "url" : "https://archidekt.com/decks/445569#Rawr",
+    "desc" : "Smash into your opponents with [[Ghalta, Primal Hunger]]. Ramp quick into big beaters ([[Aggressive Mammoth]], [[Forgotten Ancient]], [[Ripjaw Raptor]])  to get him out and devastate with a 12/12 trampler. Not exactly difficult to understand.",
+    "colors" : "G"
+  },
+  "Alela: Enchantments":
+  {
+    "url" : "https://archidekt.com/decks/335172#Alela_Enchantments",
+    "desc" : "Play [[Alela, Artful Provocateur]], then play great enchantments like [[Coastal Piracy]], [[Favorable Winds]], [[Dire Undercurrents]], and [[Mirrormade]] to generate an army of faeries.",
+    "colors": "WUB"
+  },
+  "Ramos: 5-color retrace":
+  {
+    "url" : "https://archidekt.com/decks/409078#5-color_retrace",
+    "desc" : "While this jank deck is headed up by [[Ramos, Dragon Engine]], the real commander of the deck is [[Wrenn and Six]]. Find him, Ult him, and have fun retracing a bunch of oddly fun spells. How do you win? I dunno! Copy some stuff, make some tokens, and see what happens! [[Dark Petition]], [[Tamiyo, the Moon Sage]], and [[Ral, Storm Conduit]] might give you a way another out though...",
+    "colors": "WUBRG"
+  },
+  "Kenrith: Big Boy Reanimator_template":
+  {
+    "url" : "https://archidekt.com/decks/253747#Kenrith,_Recursion_King",
+    "desc" : "Do you like playing big creatures but are tired of paying huge mana costs? Well here's a deck for you! Using [[Kenrith, the Returned King]]'s last ability, reanimate massive beaters like [[Gisela, Blade of Goldnight]], [[Aurelia, the Warleader]], [[Etali, Primal Storm]], [[Medomai the Ageless]], [[Xenagos, God of Revels]], and [[The Ur-Dragon]] and deal tons of damage!",
+    "colors": "WUBRG"
+  },
+  "Niv-Mizzet, Parun: Big Draw":
+  {
+    "url" : "",
+    "desc" : "With [[Niv-Mizzet, Parun]] you'll never run out of cards. Play small things like [[Brainstorm]] and [[Ponder]] for great value, then play [[Wheel of Fortune]], [[Teferi's Puzzle Box]], and [[Time Spiral]] to draw tons of cards and deal tons of damage.",
+    "colors": "UR"
+  },
+  "Biogenic Ooze: Ooze Tribal":
+  {
+    "url" : "",
+    "desc" : "With the non-legendary [[Biogenic Ooze]] at the help, you make a lot of oozes. Play more oozes with fun effects like [[Experiment One]], [[Mitotic Slime]], and [[Predator Ooze]]. Make big ooze army. Squish with big ooze army.",
+    "colors": "G"
+  },
+  "Kenrith: Group Hug":
+  {
+    "url": "",
+    "desc": "You're everyone's friend with [[Kenrith, the Returned King]] group hug! All the mana doublers like [[Heartbeat of Spring]], all the card draw in [[Howling Mine]] and [[Minds Aglow]], and... yeah... you can definitely win with this deck, though it might be weird when you win with [[Happily Ever After]], but hey! At least everyone will be happy with you. :)",
+    "colors": "WUBRG"
+  },
+  "Kenrith: Ink-Treader":
+  {
+    "url": "https://archidekt.com/decks/295817",
+    "desc": "While Kenrith may be at the helm, the real commander of this deck is [[Ink-Treader Nephilim]]. Get him out there along with lots of tokens from [[Silverfur Partisan]] and [[Fungal Infection]], draw a ton of cards with [[Niveous Wisps]], keep reusing your best spells with [[Feather, The Redeemed]], and win the game with [[Fists of Flame]] or [[Fiery Gambit]].",
+    "colors": "WUBRG"
+  },
+  "_mana_urls": 
+  {
+    "W": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/8e/W.svg?version=d74ba6b898f8815799b1506eb06fdf74",
+    "U": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/9/9f/U.svg?version=f798d6a151a43adc05e23e534adea262",
+    "B": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/2/2f/B.svg?version=ce85e9f6be68b450719ddd2f2ad08548",
+    "R": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/87/R.svg?version=60170f319a53b4c3410c43cdbb95699f",
+    "G": "https://gamepedia.cursecdn.com/mtgsalvation_gamepedia/8/88/G.svg?version=cf85f35170391f8fbeb037dc18cc3c50"
+  }
+}

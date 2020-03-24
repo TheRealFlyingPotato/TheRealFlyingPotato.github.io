@@ -1,0 +1,25 @@
+<html>
+  <script>
+    function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    };
+
+    document.addEventListener('DOMContentLoaded', function(){ 
+      if(isMobileDevice())
+      {
+        var icns = document.getElementsByClassName("icon");
+        for (i = 0; i < icns.length; i++) 
+        {
+          icns[i].style.display = "none";
+        }
+      }
+    }, false);
+
+  </script>
+  <head>
+    <link rel="stylesheet" type="text/css" href="decks.css">
+  </head>
+  <body>
+|body|
+  </body>
+</html>
