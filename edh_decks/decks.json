@@ -20,14 +20,8 @@
   "Ghalta: Rawr":
   {
     "url" : "https://archidekt.com/decks/445569#Rawr",
-    "desc" : "Smash into your opponents with [[Ghalta, Primal Hunger]]. Ramp quick into big beaters ([[Aggressive Mammoth]], [[Forgotten Ancient]], [[Ripjaw Raptor]])  to get him out and devastate with a 12/12 trampler. Not exactly difficult to understand.",
+    "desc" : "Smash into your opponents with [[Ghalta, Primal Hunger]]. Ramp quick into big beaters ([[Aggressive Mammoth]], [[Forgotten Ancient]], [[Ripjaw Raptor]])  to get him out and devastate with a 12/12 trampler. Has fetchlands because I run [[Panglacial Wurm]] because I think it's funny.",
     "colors" : "G"
-  },
-  "Alela: Enchantments":
-  {
-    "url" : "https://archidekt.com/decks/335172#Alela_Enchantments",
-    "desc" : "Play [[Alela, Artful Provocateur]], then play great enchantments like [[Coastal Piracy]], [[Favorable Winds]], [[Dire Undercurrents]], and [[Mirrormade]] to generate an army of faeries.",
-    "colors": "WUB"
   },
   "Ramos: 5-color retrace":
   {
@@ -35,23 +29,11 @@
     "desc" : "While this jank deck is headed up by [[Ramos, Dragon Engine]], the real commander of the deck is [[Wrenn and Six]]. Find him, Ult him, and have fun retracing a bunch of oddly fun spells. How do you win? I dunno! Copy some stuff, make some tokens, and see what happens! [[Dark Petition]], [[Tamiyo, the Moon Sage]], and [[Ral, Storm Conduit]] might give you a way another out though...",
     "colors": "WUBRG"
   },
-  "Kenrith: Big Boy Reanimator_template":
+  "Kenrith: Big Boy Reanimator":
   {
     "url" : "https://archidekt.com/decks/253747#Kenrith,_Recursion_King",
     "desc" : "Do you like playing big creatures but are tired of paying huge mana costs? Well here's a deck for you! Using [[Kenrith, the Returned King]]'s last ability, reanimate massive beaters like [[Gisela, Blade of Goldnight]], [[Aurelia, the Warleader]], [[Etali, Primal Storm]], [[Medomai the Ageless]], [[Xenagos, God of Revels]], and [[The Ur-Dragon]] and deal tons of damage!",
     "colors": "WUBRG"
-  },
-  "Niv-Mizzet, Parun: Big Draw":
-  {
-    "url" : "",
-    "desc" : "With [[Niv-Mizzet, Parun]] you'll never run out of cards. Play small things like [[Brainstorm]] and [[Ponder]] for great value, then play [[Wheel of Fortune]], [[Teferi's Puzzle Box]], and [[Time Spiral]] to draw tons of cards and deal tons of damage.",
-    "colors": "UR"
-  },
-  "Biogenic Ooze: Ooze Tribal":
-  {
-    "url" : "",
-    "desc" : "With the non-legendary [[Biogenic Ooze]] at the help, you make a lot of oozes. Play more oozes with fun effects like [[Experiment One]], [[Mitotic Slime]], and [[Predator Ooze]]. Make big ooze army. Squish with big ooze army.",
-    "colors": "G"
   },
   "Kenrith: Group Hug":
   {
@@ -59,11 +41,137 @@
     "desc": "You're everyone's friend with [[Kenrith, the Returned King]] group hug! All the mana doublers like [[Heartbeat of Spring]], all the card draw in [[Howling Mine]] and [[Minds Aglow]], and... yeah... you can definitely win with this deck, though it might be weird when you win with [[Happily Ever After]], but hey! At least everyone will be happy with you. :)",
     "colors": "WUBRG"
   },
-  "Kenrith: Ink-Treader":
+  "Feather, the Redeemed: Blink":
   {
-    "url": "https://archidekt.com/decks/295817",
-    "desc": "While Kenrith may be at the helm, the real commander of this deck is [[Ink-Treader Nephilim]]. Get him out there along with lots of tokens from [[Silverfur Partisan]] and [[Fungal Infection]], draw a ton of cards with [[Niveous Wisps]], keep reusing your best spells with [[Feather, The Redeemed]], and win the game with [[Fists of Flame]] or [[Fiery Gambit]].",
+    "url" : "",
+    "desc" : "With [[Feather, the Redeemed]], abuse the reuse of [[Cloudshift]] effects to do a lot of stuff. [[Solemn Simulacrum]], [[Mirror March]], [[Molten Primordial]], [[Chancellor of the Forge]]",
+    "colors": "WR"
+  },
+  "Kenrith: Sagas":
+  {
+    "url" : "",
+    "desc" : "Reuse Sagas over and over with effects like [[Power Conduit]] and [[Ferropede]].",
     "colors": "WUBRG"
+  },
+  "Muldrotha: Stax":
+  {
+    "url" : "",
+    "desc" : "[[Muldrotha, the Gravetide]] stax and hand hate. Psuedo cEDH.",
+    "colors": "UBG"
+  },
+  "Kenrith: Reanimator Combo":
+  {
+    "url" : "",
+    "desc" : "Combo deck that tries to win with [[Dockside Extortionist]] and a sac outlet or [[Necrotic Ooze]] combo lines. Psuedo cEDH.",
+    "colors": "WUBRG"
+  },
+  "Marwyn, the Nurturer":
+  {
+    "url" : "",
+    "desc" : "[[Marwyn, the Nurturer]] cEDH.",
+    "colors": "G"
+  },
+  "Kenrith: Lifeline":
+  {
+    "url" : "",
+    "desc" : "Tutor out [[Lifeline]], protect it with [[Sharuum the Hegemon]], get loads of value with [[Court Hussar]] and [[Tishana, Voice of Thunder]], and make loads of tokens with [[Elenda, the Dusk Rose]].",
+    "colors": "WUBRG"
+  },
+  "Niv-Mizzet Reborn: Blink":
+  {
+    "url" : "https://www.moxfield.com/decks/e9gVVMHoqEOyvBZKVt6oZQ",
+    "desc" : "With [[Niv-Mizzet Reborn]] at the helm, find [[Feather, the Redeemed]] or [[Izzet Chronarch]] and use [[Ghostly Flicker]] and cousins to do... a lot. [[Keruga, the Macrosage]], [[Yorion, Sky Nomad]], [[Purphoros, God of the Forge]], [[Avenger of Zendikar]]",
+    "colors": "WUBRG"
+  },
+  "Kalamax: Shiny Spells and Voltron or Something":
+  {
+    "url" : "",
+    "desc" : "Built out of stuff I had lying around, [[Kalamax, the Stormsire]] draws a lot of cards and can do a lot of damage. [[Opportunity]], [[Wavebreak Hippocamp]], [[Fact or Fiction]], [[Growth Spiral]], [[Bounty of Might]]",
+    "colors": "URG"
+  },
+  "Kenrith: Soul Sisters":
+  {
+    "url" : "https://www.moxfield.com/decks/1AMvcSuSTkCu_B7NHZ17-A",
+    "desc" : "With plenty of [[Soul Warden]] effects, this deck is based around lifegain triggers. Also has some neat engine pieces with +1/+1 counters if you get them together, such as [[Heliod, Sun-Crowned]] and [[Ghave, Guru of Spores]]. Drain with [[Epicure of Blood]] or beat face with [[Archangel of Thune]], [[Krenko, Tin Street Kingpin]], and [[Twinblade Paladin]]. Also plays [[Norin the Wary]].",
+    "colors": "WUBRG"
+  },
+  "Kami of the Crescent Moon":
+  {
+    "url" : "",
+    "desc" : "The second deck I ever made, [[Kami of the Crescent Moon]] is just a big group draw deck ([[Howling Mine]], [[Font of Mythos]]) with a flicker package. Combo out with [[Peregrine Drake]], [[Archaeomancer]], and [[Ghostly Flicker]].",
+    "colors": "U"
+  },
+  "Yore-Tiller Nephilim":
+  {
+    "url" : "",
+    "desc" : "With the unofficial [[Yore-Tiller Nephilim]] at the helm, bring back massive beaters and value cards. [[Dream Eater]], [[Divinity of Pride]], [[Arbiter of the Ideal]], [[Gyruda, Doom of Depths]], [[Athreos, Shroud-Veiled]], [[Reya Dawnbringer]]",
+    "colors": "WUBR"
+  },
+  "Rielle, the Everwise":
+  {
+    "url" : "",
+    "desc" : "Play all the bad wheels with [[Rielle, the Everwise]]. [[Read the Runes]], [[Breakthrough]], [[Tolarian Winds]]. Win with commander damage, [[Brallin, Skyshark Rider]], or [[Psychosis Crawler]]",
+    "colors": "UR"
+  },
+  "Tasigur: Seasons Pastigur":
+  {
+    "url" : "",
+    "desc" : "[[Tasigur, the Golden Fang]] cEDH.",
+    "colors": "UBG"
+  },
+  "Sisay, Weatherlight Captain: Shrines / Upkeep Tribal":
+  {
+    "url" : "https://www.moxfield.com/decks/0COO6Ij9ykmVn8bgo8yxZQ",
+    "desc" : "Get out [[Sanctum of All]] and have fun with way too many shrines. Also get out [[Paradox Haze]], clone it, and have way too many upkeeps. [[Bringer of the Red Dawn]], [[Outlaws' Merriment]], [[Rite of the Raging Storm]], [[Into the Wilds]], [[Stolen Strategy]], [[As Foretold]], [[Junkyo Bell]], [[Gate to the Aether]]",
+    "colors": "WUBRG"
+  },
+  "Tormod + Sidar: Desecrated Existence":
+  {
+    "url" : "https://www.moxfield.com/decks/Pze89fezwkOQyRlzhl1nSg",
+    "desc" : "With [[Sidar, Kondo of Jamuraa]] and [[Tormod, the Desecrator]] at the helm, get out [[Tortured Existence]] and go to town. [[Desecrated Tomb]], [[Golgari Brownscale]], [[Nature's Will]]",
+    "colors": "WBG"
+  },
+  "Chulane, Teller of Tales":
+  {
+    "url" : "",
+    "desc" : "A deck just thrown together from what I had lying around. Classic [[Chulane, Teller of Tales]] deck. Powerful because Chulane but not competitive by any means.",
+    "colors": "WUG"
+  },
+  "Sedris, the Traitor King: Unearthing the Dragons":
+  {
+    "url" : "https://www.moxfield.com/decks/jcRockC_AUm2OYNbZCyZzw",
+    "desc" : "[[Sedris, the Traitor King]] brings back big boys. [[Neheb, Dreadhorde Champion]], [[Moraug, Fury of Akoum]], [[Terror of the Peaks]]. Keep stuff around with [[Sundial of the Infinite]], [[Thassa, Deep-Dwelling]], [[Conjurer's Closet]], and [[Teferi's Veil]].",
+    "colors": "UBR"
+  },
+  "Kess, Dissident Mage":
+  {
+    "url" : "",
+    "desc" : "Built with stuff I had lying around, [[Kess, Dissident Mage]] plays a lot of spells. Steal stuff, either permanently or temporarily, and play all the nicol bolas planeswalkers.",
+    "colors": "UBR"
+  },
+  "Kenrith: I am a generous king":
+  {
+    "url" : "",
+    "desc" : "[[Kenrith, the Returned King]]: play [[Collective Voyage]] and [[Prosperity]], take care of threats to you by giving gifts ([[Generous Gift]], [[Settle the Wreckage]]) and copy spells. Has won with [[Happily Ever After]].",
+    "colors": "WUBRG"
+  },
+  "Kenrith: The Lich King":
+  {
+    "url" : "",
+    "desc" : "[[Lich]] and [[Kenrith, the Returned King]] seem like a good combo, no? Protect [[Lich]] with countermagic, hexproof, and play dumb draw cards like [[Ivory Tower]] and [[Gerrard, Capashen]].",
+    "colors": "WUBRG"
+  },
+  "Muldrotha: Zombies":
+  {
+    "url" : "",
+    "desc" : "Play zombies. [[Muldrotha, the Gravetide]] at the helm.",
+    "colors": "UBG"
+  },
+  "Kels, Fight Fixer":
+  {
+    "url" : "",
+    "desc" : "My shiny pride and joy. [[Kels, Fight Fixer]]. Draw cards, get mana, play stuff, [[Zulaport Cutthroat]] everyone out. GG.",
+    "colors": ""
   },
   "_mana_urls": 
   {
