@@ -1,0 +1,251 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+      
+<body bg = "black">
+<div>
+AC: 15 
+FORT: 12
+REF: 15
+WILL: 14
+</div>
+
+<input type="checkbox"><input type="checkbox"><input type="checkbox"><br>
+
+      <div onclick="$('#0').toggle()" style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+          <div style="background-color:#407040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+              <div style="font-weight:bold;float:left;">Dimensional Scramble</div>
+              <div style="float:right;">Psion Attack 1</div>
+          </div>
+          <div id = "0" style="display:none">
+              <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">Your attack causes space to jumble and fragment, scattering creatures into different positions.</div>
+              <div style="padding-left:5px;">
+                  <span style="font-weight:bold;">At-Will</span> ♦ <span style="font-weight:bold;">Augmentable, Implement, Psionic, Teleportation</span><br>
+                  <span style="font-weight:bold;">Standard Action</span> ♦ <span style="font-weight:bold;">Area Burst</span> 1 Within 10 Squares
+              </div>
+              <div style="padding:0px 0px 0px 5px;background-image:none;">
+                  <span style="font-weight:bold;">Target:</span>
+                  Each Creature in Burst
+              </div>
+              <div style="padding:0px 0px 0px 5px;background-image:none;">
+                  <span style="font-weight:bold;">Attack:</span>
+                  Intelligence vs. Fortitude
+              </div>
+              <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+                  <span style="font-weight:bold;">Hit:</span>
+                  1d6 + Intelligence modifier damage, and you teleport the target to a square adjacent to the burst.
+              </div>
+              <div style="padding:0px 0px 0px 5px;background-image:none;">
+                  <span style="font-weight:bold;">Augment 1</span>
+                  <br>Target: Each enemy in burst</br>
+              </div>
+              <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+                  <span style="font-weight:bold;">Augment 2</span>
+                  <br>Target: Each enemy in burst
+                  <br>Hit: 2d6 + Intelligence modifier damage, and you teleport the target to a square adjacent to the burst.
+              </div>
+          </div>
+          <br />
+      </div>
+
+
+
+
+
+      <div onclick="$('#1').toggle()" style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+          <div style="background-color:#407040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+              <div style="font-weight:bold;float:left;">Dishearten</div>
+              <div style="float:right;">Psion Attack 1</div>
+          </div>
+          <div id = "1" style="display:none">
+          <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">You insert thoughts of defeat into your foes' minds, sapping the enemies' will to fight.</div>
+          <div style="padding-left:5px;">
+              <span style="font-weight:bold;">At-Will</span> ♦ <span style="font-weight:bold;">Augmentable, Implement, Psionic, Psychic</span><br>
+              <span style="font-weight:bold;">Standard Action</span> ♦ <span style="font-weight:bold;">Area Burst</span> 1 Within 10 Squares
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Target:</span>
+              Each Creature in Burst
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Attack:</span>
+              Intelligence vs. Will
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Hit:</span>
+              1d6 + Intelligence modifier psychic damage, and the target takes a -2 penalty to attack rolls until the end of your next turn.
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Augment 1</span>
+              <br>Hit: As above, and the target cannot make opportunity attacks until the end of your next turn.
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Augment 2</span>
+              <br>Hit: 2d6 + Intelligence modifier psychic damage, and the target takes a penalty to attack rolls equal to your Charisma modifier until the end of your next turn.
+          </div>
+      </div>
+          <br />
+      </div>
+
+
+
+
+      <div onclick="$('#2').toggle()" style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+  <div style="background-color:#704040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+      <div style="font-weight:bold;float:left;">Storm Pillar</div><input type="checkbox">
+      <div style="float:right;">Half-Elf Dilettante 1</div>
+  </div>
+  <div id = "2" style="display:none">
+  <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">A crackling column of lightning appears amid your enemies, lashing out at any who move near it.</div>
+  <div style="padding-left:5px;">
+      <span style="font-weight:bold;">Encounter</span> ♦ <span style="font-weight:bold;">Psionic, Conjuration, Implement, Lightning</span><br>
+      <span style="font-weight:bold;">Standard Action</span> ♦ <span style="font-weight:bold;">Ranged</span> 10
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+      <span style="font-weight:bold;">Effect:</span>
+      You conjure a pillar of crackling energy in an unoccupied square within range. The pillar occupies 1 square and lasts until the end of your next turn. Each enemy that moves into a square adjacent to the pillar takes 1d6 + your Intelligence modifier lightning damage.
+  </div>
+  </div>
+  <br />
+</div>
+
+
+<div onclick="$('#nobleadeptfeature').toggle()" style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+  <div style="background-color:#704040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+      <div style="font-weight:bold;float:left;">Adept's Insight</div><input type="checkbox">
+      <div style="float:right;">Noble Adept Feature</div>
+  </div>
+  <div id = "nobleadeptfeature" style="display:none">
+  <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">With a mental focus, you enhance the undeniability of your actions</div>
+  <div style="padding-left:5px;">
+      <span style="font-weight:bold;">Encounter</span> ♦ <span style="font-weight:bold;">Psionic</span><br>
+      <span style="font-weight:bold;">Free Action</span> ♦ <span style="font-weight:bold;">Close Burst</span> 5
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:none;">
+      <span style="font-weight:bold;">Trigger:</span>
+      You or an ally makes an attack roll, saving throw, or skill check.
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+      <span style="font-weight:bold;">Effect:</span>
+      You add 1 to the triggering roll.
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:none;">
+      <span style="font-weight:bold;">Augment 1:</span>
+  </div>
+  <div style="padding:0px 0px 0px 15px;background-image:none;">
+      <span style="font-weight:bold;">Effect:</span>
+      You instead add 1d4+1 to the triggering roll.
+  </div>
+  </div>
+  <br />
+</div>
+
+<div onclick="$('#intellectfortress').toggle()"style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+  <div style="background-color:#704040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+      <div style="font-weight:bold;float:left;">Intellect Fortress</div><input type="checkbox">
+      <div style="float:right;">Psion Utility 2</div>
+  </div>
+  <div id = 'intellectfortress' style="display:none">
+  <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">A shimmering fortress of mind-generated force springs into being,
+deflecting certain attacks. </div>
+  <div style="padding-left:5px;">
+      <span style="font-weight:bold;">Encounter</span> ♦ <span style="font-weight:bold;">Psionic</span><br>
+      <span style="font-weight:bold;">Immediate Interrupt</span> ♦ <span style="font-weight:bold;">Personal</span> 
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:none;">
+      <span style="font-weight:bold;">Trigger:</span>
+      You are hit by an attack
+  </div>
+  <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+      <span style="font-weight:bold;">Effect:</span>
+      Choose a defense. Until the end of your next turn, you gain a power bonus to that defense equal to your Charisma modifier.
+  </div>
+</div>
+  <br />
+</div>
+
+
+      <div onclick="$('#3').toggle()" style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+          <div style="background-color:#404040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+              <div style="font-weight:bold;float:left;">Living Missile</div><input type="checkbox">
+              <div style="float:right;">Psion Attack 1</div>
+          </div>
+          <div id = "3" style="display:none">
+          <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;">You bind an enemy with a thought, then hurl it into another foe.</div>
+          <div style="padding-left:5px;">
+              <span style="font-weight:bold;">Daily</span> ♦ <span style="font-weight:bold;">Implement, Psionic</span><br>
+              <span style="font-weight:bold;">Standard Action</span> ♦ <span style="font-weight:bold;">Ranged</span> 10
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Primary Target:</span>
+              One creature
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Primary Attack:</span>
+              Intelligence vs. Fortitude
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Hit:</span>
+              The target is immobilized (save ends).
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Miss:</span>
+              The target is slowed (save ends).
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Effect:</span>
+              While the target is immobilized or slowed by this power, you can use the Living Missile Secondary power.
+          </div>
+          <br />
+          
+
+
+
+
+      <div style="font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;">
+          <div style="background-color:#407040;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;">
+              <div style="font-weight:bold;float:left;">Living Missile Secondary</div>
+              <div style="float:right;"></div>
+          </div>
+          <div style="background-color:#DDDDCC;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');font-style:italic;padding: 1px 0px 3px 5px;"></div>
+          <div style="padding-left:5px;">
+              <span style="font-weight:bold;">At-Will</span> ♦ <span style="font-weight:bold;">Implement, Psionic</span><br>
+              <span style="font-weight:bold;">Minor Action</span> ♦ <span style="font-weight:bold;">Ranged</span> 10
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Prerequisite:</span>
+              A creature must be immobilized or slowed by your Living Missile power
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Primary Target:</span>
+              The creature immobilized or slowed by your Living Missile power
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Effect:</span>
+              Slide the primary target 10 squares.
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Secondary Target:</span>
+              One creature adjacent to the primary target at any point during the slide
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Secondary Attack:</span>
+              Intelligence vs. Reflex
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:url('http://omnichron.net/external/op/src/bg_350.jpg');">
+              <span style="font-weight:bold;">Hit:</span>
+              2d6 + Intelligence modifier damage, and the secondary target falls prone. The primary target takes half damage and falls prone.
+          </div>
+          <div style="padding:0px 0px 0px 5px;background-image:none;">
+              <span style="font-weight:bold;">Miss:</span>
+              Half damage, and the primary target falls prone.
+          </div>
+      </div>
+          <br />
+      </div>
+
+
+
+
+</div>
+</body>
