@@ -1,0 +1,10 @@
+.spirit-image {
+  position: absolute;
+  left: 16.5px;
+  top: -300.75px;
+  width: 667.5px;
+  height: calc(100% - (17.75px * 2));
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

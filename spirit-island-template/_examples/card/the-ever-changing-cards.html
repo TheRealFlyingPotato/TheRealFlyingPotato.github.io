@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+  <link href="../../_global/css/global.css" rel="stylesheet" />
+  <link href="../../_global/css/card.css" rel="stylesheet" />
+  <script type="text/javascript" src="../../_global/js/general.js"></script>
+  <script src="../../_global/js/card.js" defer></script>
+</head>
+<body>
+
+  <!-- <quick-card 
+    speed="fast"
+    cost="0" 
+    name="EXAMPLE #1"
+    image="example1.png"
+    elements="sun,air,earth"
+    range="1"
+    target="{no-sand}"
+    artist-name="ARTIST NAME">
+    <rules>
+      <div>Replace 1 of your {presence} with {strife} / {disease} / {beast} / {wilds} / {badlands} .</div><br/>
+      <div>If the land has {strife} / {disease} / {beast} / {wilds} / {badlands}, add a {strife} / {disease} / {beast} / {wilds} / {badlands} if there isn't a token of that type in that land.</div>
+    </rules>
+  </quick-card> -->
+
+  <quick-card
+    speed="slow"
+    cost="1"
+    name="COLOR SHIFT"
+    image="example2.png"
+    elements="plant,earth,animal,moon,water"
+    range="1"
+    target="ANY"
+    target-title="TARGET"
+    artist-name="ARTIST NAME">
+    <rules style="font-size: 14px;">
+      <div>
+        You may reclaim this card. If you do, you may play another Unique Power Card from your hand without paying its cost.
+      </div>
+      <or></or>
+      <div>
+        Replace all of your {presence} with {disease} / {beast} / {wilds} / {badlands} , divided as evenly as possible. <i>(Do not replace {presence} with strife if there are no invaders.)</i>
+      </div>
+    </rules>
+  </quick-card>
+
+  <quick-card
+    speed="fast"
+    cost="0"
+    name="RECEDE TO NATURE"
+    image="example4.png"
+    elements="sun,plant,water"
+    range="1"
+    target="ANY"
+    artist-name="ARTIST-NAME">
+    <rules>
+      <div> 
+        Add 1 {wilds}.
+      </div>
+      <div>
+        A spirit with {presence} in target land gains 1 energy.
+      </div>
+    </rules>
+    <threshold condition="3-water">
+      <div>Remove 1 {blight}.</div>
+    </threshold>
+  </quick-card>
+  
+  <quick-card
+    speed="slow"
+    cost="0"
+    name="SLOWLY MOVE IN ANGER"
+    image="example3.png"
+    elements="fire,earth"
+    range="1"
+    target="ANY"
+    artist-name="ARTIST NAME">
+    <rules>
+      <div>
+        1 Damage.
+      </div>
+      <or></or>
+      <div>
+        Add 1 {badlands}.
+      </div>
+      <threshold condition="4-earth">
+        <div>You may do both.</div>
+      </threshold>
+    </rules>
+  </quick-card>
+
+  <quick-card
+    speed="slow"
+    cost="0"
+    name="SPREAD THE SICKNESS"
+    image="example3.png"
+    elements="moon,water"
+    range="1"
+    target="ANY"
+    artist-name="ARTIST NAME">
+    <rules>      
+      <div>
+        If target land has {disease}, gain 1 {fear}.
+      </div>
+      <div>
+        Add 1 {disease}.
+      </div>
+    </rules>
+  </quick-card>
+
+  <quick-card
+    speed="slow"
+    cost="0"
+    name="BECOME A FEROCIOUS FORM"
+    image="example3.png"
+    elements="animal,air,moon"
+    range="1"
+    target="ANY"
+    artist-name="ARTIST NAME">
+    <rules>      
+      <div>
+        You may replace 1 of your {presence} with {beast}.
+      </div>
+      <div>
+        1 damage per {beast}.
+      </div>
+    </rules>
+  </quick-card>
+
+  <!-- <quick-card
+    speed="slow"
+    cost="2"
+    name="EXAMPLE #4"
+    image="example4.png"
+    elements="sun,fire,animal"
+    range="sand-presence,1"
+    target="{no-dahan}"
+    artist-name="ARTIST-NAME">
+    <rules>
+      <div>
+        Gather 2 <icon class="dahan"></icon>.
+      </div>
+      <div>
+        2 Damage. 
+      </div>
+    </rules>
+    <threshold condition="3-animal">
+      <div>Push 2 {dahan}.</div>
+    </threshold>
+  </quick-card> -->
+
+</body>
+</html>

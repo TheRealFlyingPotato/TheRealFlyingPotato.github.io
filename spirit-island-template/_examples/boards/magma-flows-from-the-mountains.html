@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="../../_global/css/global.css" rel="stylesheet" />
+    <link href="../../_global/css/board_front.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../_global/js/general.js"></script>
+    <script type="text/javascript" src="../../_global/js/board_front.js"></script>
+</head>
+
+<body>
+
+  <board spirit-image="magma-flows-from-the-mountains.png" spirit-image-scale="190%"  spirit-border="example2.png">
+    
+    <spirit-name>
+      Magma Flows from the Mountains
+    </spirit-name>
+
+    <special-rules-container>
+      <section-title>SPECIAL RULES</section-title>
+      <special-rules-subtitle>Born of Molten Rock</special-rules-subtitle>
+      <special-rule>
+        Your {presence} can only be placed adjacent to or in Mountains.
+      </special-rule>
+      <special-rule>
+        Lands with your sacred sites count as mountains for Spirit actions and special rules
+      </special-rule>
+      <special-rules-subtitle>Magma cools to jagged stone</special-rules-subtitle>
+      <special-rule>
+        During Time Passes: Replace any of your {presence} that are not in or adjacent to a mountain with {badlands} .
+      </special-rule>
+      <special-rules-subtitle>Heat Rises within the Mountain</special-rules-subtitle>
+      <special-rule>
+        Whenever you place {presence}, if you were to place it in a Mountain you may use your destroyed {presence} .
+      </special-rule>
+    </special-rules-container>
+
+    <right>
+
+      <growth title="Growth">
+        <sub-growth title="pick two" bordered>
+        <growth-group values="reclaim-one"></growth-group>
+        <growth-group values="reclaim-one;gain-energy(1)"></growth-group>
+        <growth-group values="gain-power-card;gain-energy(1)"></growth-group>
+        <growth-group values="add-presence(2,mountain);gain-element(fire)"></growth-group>
+        <growth-group cost="3" values="add-presence(3);gain-power-card"></growth-group>
+    </growth>
+
+    <presence-tracks>
+      <energy-track values="0,1,fire,2,reclaim-one,3,earth"></energy-track>
+      <card-play-track values="1,push(one of your presence),2,3,any,4"></card-play-track>
+    </presence-tracks>
+
+    <innate-powers>
+      <quick-innate-power
+        name="Steam Bursts from the Earth"
+        speed="fast"
+        range="none"
+        target="yourself"
+        target-title="TARGET"
+        note="You may repeat this power 1 time per {fire} you have.">
+        <level threshold="1-water">
+          The next time an explorer would be placed in one of your lands, destroy it.
+        </level>
+      </quick-innate-power>
+      <quick-innate-power
+      name="Steady Flows Reshape the Island"
+      speed="slow"
+      range="0"
+      target="your {presence}"
+      target-title="TARGET">
+      <level threshold="2-fire">
+          Push all of your {presence}.
+        </level>
+        <level threshold="2-plant,2-fire">
+          Remove a blight.
+        </level>
+        <level threshold="3-fire,2-earth">
+          2 damage to {town}/{city}.
+        </level>
+        <level threshold="4-fire,3-earth">
+          +1 damage to {town}/{city}.
+        </level>
+      </quick-innate-power>
+    </innate-powers>
+  </right>
+  </board>
+</body>
+
+</html>
