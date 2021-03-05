@@ -20,8 +20,9 @@
       <section-title>SPECIAL RULES</section-title>
       <special-rules-subtitle>Blending In</special-rules-subtitle>
       <special-rule>
-        Whenever you replace {presence} with {disease} / {beast} / {wilds} / {badlands} , set it here. {presence} here is treated as though it were on the island for checking loss conditions.
+        Whenever you replace {presence} with {disease} / {beast} / {wilds} / {badlands} , set it here. {presence} here is treated as though it were on the island for checking loss conditions as long as there is {disease} / {beast} / {wilds} / {badlands} on the island.
       </special-rule>
+      <br></br>
       <special-rule>
         <b>During Time Passes:</b> Replace any number of {disease} / {beast} / {wilds} / {badlands} in or adjacent to one of your lands with {presence} from here. If you have no {presence} on the island, you may treat all lands as yours for the first use of this replacement each turn. You must return {presence} from here for any spirit that has 1 or less {presence} on the Island until that spirit has at least 2 {presence} on the island.
       </special-rule>
@@ -38,12 +39,13 @@
         <growth-group values="reclaim-all;add-token(0,Wilds)"></growth-group>
         <growth-group values="reclaim-one;add-presence(1)"></growth-group>
         <growth-group values="gain-power-card;add-presence(0)"></growth-group>
+        <growth-group values="gain-energy(1);add-presence(1)"></growth-group>
       </sub-growth>
     </growth>
 
     <presence-tracks>
-      <energy-track values="0,1,1,move-presence(1),2,2,any,3"></energy-track>
-      <card-play-track values="1,2,3,push(wilds),reclaim-one,4"></card-play-track>
+      <energy-track values="1,1,1,move-presence(1),2,2,any,3"></energy-track>
+      <card-play-track values="2,2,3,push(wilds),reclaim-one,4"></card-play-track>
     </presence-tracks>
 
     <innate-powers>

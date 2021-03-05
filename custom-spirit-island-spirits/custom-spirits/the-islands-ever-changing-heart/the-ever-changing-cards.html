@@ -32,13 +32,13 @@
     target="ANY"
     target-title="TARGET"
     artist-name="ARTIST NAME">
-    <rules style="font-size: 14px;">
+    <rules style="font-size: 18px;">
       <div>
         You may reclaim this card. If you do, you may play another Unique Power Card from your hand without paying its cost.
       </div>
       <or></or>
       <div>
-        Replace all of your {presence} with {disease} / {beast} / {wilds} / {badlands} , divided as evenly as possible. <i>(Do not replace {presence} with strife if there are no invaders.)</i>
+        Replace all of your {presence} with {disease} / {beast} / {wilds} / {badlands} , divided as evenly as possible.
       </div>
     </rules>
   </quick-card>
@@ -118,11 +118,15 @@
     artist-name="ARTIST NAME">
     <rules>      
       <div>
-        You may replace 1 of your {presence} with {beast}.
+        Add 1 {beast}.
       </div>
+      <or></or>
       <div>
         1 damage per {beast}.
       </div>
+      <threshold condition="3-animal">
+        <div>Add 1 {beast} in an adjacent land.</div>
+      </threshold>
     </rules>
   </quick-card>
 
