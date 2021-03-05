@@ -1,13 +1,45 @@
 .h4, h4 {
   font-size: 18px;
   color: white;
-  text-shadow: 1px 1px black;
-  font-style: oblique;
+  /* text-shadow: 1px 1px grey; */
+  /* font-style: oblique; */
   font-weight: bold;
+  font-family: Helvetica, sans-serif;
 }
 
 body {
   /* background-image: url(https://images.freeimages.com/images/premium/small-comps/3294/32944456-abstract-background.jpg); */
   /* background-repeat: round; */
   background-color: #111125;
+}
+
+button {
+  margin: 3px;
+}
+
+a {
+  font-weight:bold !important;
+  color: white;
+  /* text-shadow: 1px 1px grey; */
+  font-family: Helvetica, sans-serif;
+}
+
+.darken {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(shoes.jpg);
+}
+
+#spirit-container {
+  margin: auto 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
