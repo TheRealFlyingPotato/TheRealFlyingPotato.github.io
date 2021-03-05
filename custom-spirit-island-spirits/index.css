@@ -1,0 +1,13 @@
+.h4, h4 {
+  font-size: 18px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+body {
+  /* background-image: url(https://images.freeimages.com/images/premium/small-comps/3294/32944456-abstract-background.jpg); */
+  /* background-repeat: round; */
+  background-color: #111125;
+}
