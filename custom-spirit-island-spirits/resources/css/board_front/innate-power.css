@@ -1,11 +1,11 @@
 @font-face{
   font-family: 'Gobold Extra2';
-  src: url(../fonts/gobold/Gobold-Regular.otf)
+  src: url(../../fonts/gobold/Gobold-Regular.otf)
 }
 
 @font-face{
   font-family: 'DK Snemand';
-  src: url(../fonts/dk-snemand/DK-Snemand.otf)
+  src: url(../../fonts/dk-snemand/DK-Snemand.otf)
 }
 
 innate-powers {

@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'DK Snemand';
-  src: url(../fonts/dk-snemand/DK-Snemand.otf)
+  src: url(../../fonts/dk-snemand/DK-Snemand.otf)
 }
 
 html, body {
@@ -143,3 +143,8 @@ right{
   width: 1090px;
   overflow: hidden;
 }
+
+/* #zoom-fixer {
+  background-color:royalblue;
+  /* padding: 10%; */
+} */
