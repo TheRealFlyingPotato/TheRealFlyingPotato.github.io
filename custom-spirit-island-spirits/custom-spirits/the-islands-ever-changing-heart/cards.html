@@ -7,21 +7,6 @@
 </head>
 <body>
 
-  <!-- <quick-card 
-    speed="fast"
-    cost="0" 
-    name="EXAMPLE #1"
-    image="example1.png"
-    elements="sun,air,earth"
-    range="1"
-    target="{no-sand}"
-    artist-name="ARTIST NAME">
-    <rules>
-      <div>Replace 1 of your {presence} with {strife} / {disease} / {beast} / {wilds} / {badlands} .</div><br/>
-      <div>If the land has {strife} / {disease} / {beast} / {wilds} / {badlands}, add a {strife} / {disease} / {beast} / {wilds} / {badlands} if there isn't a token of that type in that land.</div>
-    </rules>
-  </quick-card> -->
-
   <quick-card
     speed="slow"
     cost="1"
@@ -38,7 +23,7 @@
       </div>
       <or></or>
       <div>
-        Replace all of your {presence} with {disease} / {beast} / {wilds} / {badlands} , divided as evenly as possible.
+        Reclaim another Unique power card.
       </div>
     </rules>
   </quick-card>
@@ -99,8 +84,9 @@
     artist-name="ARTIST NAME">
     <rules>      
       <div>
-        If target land has {disease}, gain 1 {fear}.
+        If target land has {disease} or your {presence}, gain 1 {fear}.
       </div>
+      <br>
       <div>
         Add 1 {disease}.
       </div>
@@ -112,9 +98,9 @@
     cost="0"
     name="BECOME A FEROCIOUS FORM"
     image="example3.png"
-    elements="animal,air,moon"
+    elements="animal,plant,moon"
     range="1"
-    target="ANY"
+    target="{jungle}/inland"
     artist-name="ARTIST NAME">
     <rules>      
       <div>
