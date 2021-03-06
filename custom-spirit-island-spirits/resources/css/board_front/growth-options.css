@@ -1,12 +1,5 @@
-@font-face{
-  font-family: 'Gobold Extra2';
-  src: url(../fonts/gobold/Gobold-Regular.otf)
-}
 
-@font-face{
-  font-family: 'DK Snemand';
-  src: url(../fonts/dk-snemand/DK-Snemand.otf)
-}
+
 
 growth {
   background-image: url('../../images/board/Growth_Without_Text.png');
