@@ -1,6 +1,7 @@
 var spirit_names = [
   "Magma Flows from the Mountains",
-  "The Island's Ever Changing Heart"
+  "The Island's Ever Changing Heart",
+  "Master of the Ancient Rituals"
 ]
 window.onload = function() {
   container = $("#spirit-container").first();
