@@ -8,51 +8,59 @@
 <body>
   <quick-card 
     speed="fast"
-    cost="0" 
-    name="fiery vengeance"
+    cost="0"
+    name="Carve the Land with Flows of Fire"
     image="fiery-vengeance.png"
     elements="sun,fire"
     range="0"
     target="coastal"
-    <!--target-title="target"-->
     artist-name="">
     <rules>
       <div>
-        Replace all of your {presence} in target land with {badlands}. Gain 1 energy per presence replaced.
+        Replace all of your {presence} in target land with {badlands}. Gain 1 energy per {presence} replaced.
       </div>
+      <br />
+      <div>
+      	1 damage.
+      	</div>
     </rules>
   </quick-card>
 
   <quick-card 
-    speed="fast"
-    cost="0" 
-    name="EXAMPLE #1"
+    speed="slow"
+    cost="1"
+    name="rising heat drives them away"
     image="example1.png"
     elements="sun,air,earth"
-    range="0"
-    target="{no-sand}"
+    range="mountain,1"
+    target="any"
     artist-name="ARTIST NAME">
     <rules>
-      <div>Gather 1 {explorer}/{town}.</div>
-      <or></or>
-      <div>2 {fear}.</div>
+    	 <div>1 {fear}.</div>
+      <div>Push 1 {explorer} and 1 {town}.</div>
+      <div>Push 2 {dahan}.</div>
+      <div>Push 2 {beast}.</div>
     </rules>
   </quick-card>
 
   <quick-card
-    speed="fast"
-    cost="1"
-    name="EXAMPLE #2"
+    speed="slow"
+    cost="2"
+    name="uwu"
     image="example2.png"
     elements="sun,earth"
-    range="none"
-    target="YOURSELF"
+    range="1"
+    target="mountain"
     target-title="TARGET"
     artist-name="ARTIST NAME">
     <rules>
       <div>
-        {terror-2}: Defend 3 in every <icon class="sand"></icon><br /> with your <icon class="presence"></icon>.
+      	Add 1 of your removed {presence}. If you do, destroy 1  {town}. Push one of your {presence}.
       </div>
+      <threshold condition="4-fire">
+      		<div>1 {fear}.</div>
+      		<div>You may destroy 1 {city} instead of 1 {town}.</div>
+      	</threshold>
     </rules>
   </quick-card>
   
@@ -89,7 +97,7 @@
         Gather 2 <icon class="dahan"></icon>.
       </div>
       <div>
-        2 Damage. 
+        2 Damage.
       </div>
     </rules>
     <threshold condition="3-animal">
