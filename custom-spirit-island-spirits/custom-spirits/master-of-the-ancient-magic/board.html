@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="../../resources/css/global.css" rel="stylesheet" />
+    <link href="../../resources/css/board_front.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../resources/js/general.js"></script>
+    <script type="text/javascript" src="../../resources/js/board_front.js"></script>
+</head>
+
+<body>
+
+  <board spirit-image="bg.png" spirit-image-scale="190%"  spirit-border="banner.png">
+    
+    <spirit-name>
+      Master of the Ancient Magic
+    </spirit-name>
+
+    <special-rules-container>
+      <section-title>SETUP</section-title>
+      <special-rule>
+        Deal 2 Minor Powers face-up as your initial Ancient Magic cards. 
+      </special-rule>
+      <section-title>SPECIAL RULES</section-title>
+      <special-rules-subtitle>Arcane Watcher</special-rules-subtitle>
+      <special-rule>
+        You may play your Ancient Magic cards as though they were in your hand. Doing so costs 1 energy less and does not provide any elements. Powers played this way are not dicarded at end of turn and instead are kept as your Ancient Magic cards.
+      </special-rule>
+      <special-rule>
+        Whenever you have more than 2 Ancient Magic Power cards, forget one.
+      </special-rule>
+      <special-rule>
+        If a {fast} power is ever one of your Ancient Magic cards, replace it with the top power of the Minor power deck. <i>(This repeats as neccessary.)</i>
+      </special-rule>
+      <special-rules-subtitle>Offer Guidance to Other Spirits</special-rules-subtitle>
+      <special-rule>When another spirit gains a power, they may instead <i>(with your permission)</i> gain one of your Ancient Magic cards. If they do, gain a Minor Power to your Ancient Magic cards.</special-rule>
+    </special-rules-container>
+
+    <right>
+
+      <growth title="Growth">
+        <sub-growth title="pick one" bordered>
+        <growth-group values="reclaim-all;gain-energy(2)"></growth-group>
+        <growth-group values="gain-power-card;add-presence(2)"></growth-group>
+        <growth-group values="add-presence(1);add-token('you may play an Ancient Magic Card an additional time this turn')"></growth-group>
+    </growth>
+
+    <presence-tracks>
+      <energy-track values="1,1,air,2,2,3,moon"></energy-track>
+      <card-play-track values="1,1,moon,2,3,3"></card-play-track>
+    </presence-tracks>
+
+    <innate-powers>
+      <quick-innate-power
+        name="Change those who come"
+        speed="slow"
+        range="1"
+        target-title="TARGET LAND"
+        target="{dahan}"
+      >
+        <level threshold="2-moon">
+          Replace 1 {explorer} with 1 {dahan}
+        </level>
+        <level threshold="3-moon">
+          Replace 1 {town} with 1 {dahan}
+        </level>
+        <level threshold="4-moon">
+          Pay 3 energy to repeat this power in an adjacent land, even if it has no {dahan}.
+        </level>
+      </quick-innate-power>
+      <quick-innate-power
+      name="Study the texts of ancient civilization"
+      speed="slow"
+      range="0"
+      target="another {spirit}"
+      target-title="TARGET">
+      <level threshold="4-air">
+        Until time passes, you do not forget powers from your Ancient Magics when you have more than 2.
+      </level>
+      <level threshold="2-air,2-moon">
+          Gain a Minor Power to your Ancient Magics.
+      </level>
+      <level threshold="3-air,3-moon">
+        Target spirit gains a Minor Power.
+      </level>
+      </quick-innate-power>
+    </innate-powers>
+  </right>
+  </board>
+</body>
+
+</html>
