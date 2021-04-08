@@ -130,6 +130,7 @@ icon.sacred-site {
   width: 50px;
 }
 
+icon.range-plus-1 { background-image: url('../../images/board/range_plus_1.png'); }
 icon.presence { background-image: url('../../images/board/75px_presence.png'); }
 icon.sands-presence { background-image: url('../../images/board/sands-presence.png'); }
 icon.mountain-presence { background-image: url('../../images/board/mountain-presence.png'); }
@@ -321,6 +322,14 @@ icon.reclaim-one {
 
 icon.gain-card-play {
   background-image: url('../../images/board/Cardplay_Plus_1.png');
+  display: block;
+  height: 90px;
+  width:90px;
+}
+
+
+icon.additional-ancient-magics {
+  background-image: url('../../images/board/Ancient_Plus_1.png');
   display: block;
   height: 90px;
   width:90px;

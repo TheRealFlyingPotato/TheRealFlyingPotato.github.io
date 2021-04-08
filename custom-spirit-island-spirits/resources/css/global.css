@@ -61,6 +61,7 @@ icon.presence-white {background-image: url('../images/25px-Presenceicon-inverse.
 icon.presence {background-image: url('../images/25px-Presenceicon.png');}
 icon.destroyed-presence {background-image: url('../images/board/NewIcons/Misc Presence Destroy.png');}
 icon.sacred-site {background-image: url('../images/25px-Sacredsiteicon.png') }
+icon.range-plus-1 { background-image: url('../../images/board/range_plus_1.png'); }
 
 icon.earth{ background-image: url('../images/80px-Earthelement.png'); }
 icon.sun{ background-image: url('../images/80px-Sunelement.png'); }

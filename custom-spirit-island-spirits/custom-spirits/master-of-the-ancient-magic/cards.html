@@ -8,101 +8,74 @@
 <body>
   <quick-card 
     speed="fast"
-    cost="0"
-    name="Carve the Land with Flows of Fire"
-    image="fiery-vengeance.png"
-    elements="sun,fire"
-    range="0"
-    target="coastal"
+    cost="1"
+    name="POWER RESONATES FROM THE LAND"
+    image="lightning.png"
+    elements="earth,air"
+    range="1"
+    target="{dahan}"
     artist-name="">
     <rules>
       <div>
-        Replace all of your {presence} in target land with {badlands}. Gain 1 energy per {presence} replaced.
+        Defend 4.
       </div>
-      <br />
+      <br>
       <div>
-      	1 damage.
-      	</div>
+      	If target land has your {presence}, you may add a {presence} and gain a {moon}. If you do, forget this Power.
+      </div>
     </rules>
   </quick-card>
 
   <quick-card 
     speed="slow"
     cost="1"
-    name="rising heat drives them away"
-    image="example1.png"
-    elements="sun,air,earth"
-    range="mountain,1"
+    name="Whisper distrust and tempt with power"
+    image="fist.png"
+    elements="moon,air"
+    range="0,sacred-site"
     target="any"
     artist-name="ARTIST NAME">
     <rules>
-    	 <div>1 {fear}.</div>
-      <div>Push 1 {explorer} and 1 {town}.</div>
-      <div>Push 2 {dahan}.</div>
-      <div>Push 2 {beast}.</div>
+    	<div>Gather 1 {town}. Gather 1 {explorer}.</div>
+      <div>Add 1 {strife} to 2 different invaders.</div>
     </rules>
   </quick-card>
 
   <quick-card
     speed="slow"
-    cost="2"
-    name="uwu"
-    image="example2.png"
-    elements="sun,earth"
-    range="1"
-    target="mountain"
+    cost="0"
+    name="read the texts of old again"
+    image="repeat.png"
+    elements="sun,moon,air"
+    range="----"
+    target="NONE"
     target-title="TARGET"
     artist-name="ARTIST NAME">
     <rules>
       <div>
-      	Add 1 of your removed {presence}. If you do, destroy 1  {town}. Push one of your {presence}.
+        You may repeat one of your Ancient Powers by paying its cost.
       </div>
-      <threshold condition="4-fire">
-      		<div>1 {fear}.</div>
-      		<div>You may destroy 1 {city} instead of 1 {town}.</div>
-      	</threshold>
     </rules>
   </quick-card>
   
   <quick-card
     speed="slow"
-    cost="1"
-    name="EXAMPLE #3"
-    image="example3.png"
-    elements="sun,water,earth"
-    range="1"
+    cost="0"
+    name="primal magic turns them savage"
+    image="beast.png"
+    elements="moon,animal"
+    range="1,sacred-site"
     target="ANY"
     artist-name="ARTIST NAME">
     <rules>
       <div>
-        1 Damage.
+        Add 1 {beast}.
       </div>
+      <or></or>
       <div>
-        Gather up to 2 of your <icon class="presence"></icon><br /> into target land.
+        If target land has {beast}, replace 1 {explorer} with 1 {beast}.
       </div>
     </rules>
-  </quick-card>
-
-  <quick-card
-    speed="slow"
-    cost="2"
-    name="EXAMPLE #4"
-    image="example4.png"
-    elements="sun,fire,animal"
-    range="sand-presence,1"
-    target="{no-dahan}"
-    artist-name="ARTIST-NAME">
-    <rules>
-      <div>
-        Gather 2 <icon class="dahan"></icon>.
-      </div>
-      <div>
-        2 Damage.
-      </div>
-    </rules>
-    <threshold condition="3-animal">
-      <div>Push 2 {dahan}.</div>
-    </threshold>
   </quick-card>
 
 </body>

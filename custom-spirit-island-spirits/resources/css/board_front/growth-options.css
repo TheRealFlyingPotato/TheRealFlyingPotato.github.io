@@ -195,6 +195,10 @@ growth-cell icon.gain-card-play {
   margin-bottom: 7px;
 }
 
+growth-cell icon.additional-ancient-magics {
+  margin-bottom: 7px;
+}
+
 growth-cell icon.push>icon {
   left: 0px;
   top: 35px;

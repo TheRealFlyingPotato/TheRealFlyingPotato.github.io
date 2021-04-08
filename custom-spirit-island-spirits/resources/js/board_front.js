@@ -159,6 +159,11 @@ function parseGrowthTags(){
                         newGrowthCellHTML += `${openTag}{gain-card-play}<growth-text>Gain a Card Play</growth-text></growth-cell>`
                         break;
                     }
+                case 'additional-ancient-magics':
+                  {
+                      newGrowthCellHTML += `${openTag}{additional-ancient-magics}<growth-text>Gain an Ancient Magics Card Play</growth-text></growth-cell>`
+                      break;
+                  }
                 case 'make-fast':
                     {
                         newGrowthCellHTML += `${openTag}{make-fast}<growth-text>One of your Powers may be Fast</growth-text></growth-cell>`
