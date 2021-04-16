@@ -28,22 +28,24 @@
 
   <quick-card 
     speed="slow"
-    cost="1"
-    name="Whisper distrust and tempt with power"
+    cost="0"
+    name="Tempt with power"
     image="fist.png"
     elements="moon,air"
     range="0,sacred-site"
     target="any"
     artist-name="ARTIST NAME">
     <rules>
-    	<div>Gather 1 {town}. Gather 1 {explorer}.</div>
-      <div>Add 1 {strife} to 2 different invaders.</div>
+    	<div>Gather up to 1 {town}. Gather up to 1 {explorer}.</div>
+      <threshold condition="4-air">
+        This power may be {fast}.
+      </threshold>
     </rules>
   </quick-card>
 
   <quick-card
     speed="slow"
-    cost="0"
+    cost="1"
     name="read the texts of old again"
     image="repeat.png"
     elements="sun,moon,air"
@@ -59,8 +61,8 @@
   </quick-card>
   
   <quick-card
-    speed="slow"
-    cost="0"
+    speed="fast"
+    cost="1"
     name="primal magic turns them savage"
     image="beast.png"
     elements="moon,animal"
