@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <link href="../../resources/css/global.css" rel="stylesheet" />
+  <link href="../../resources/css/card.css" rel="stylesheet" />
+  <script type="text/javascript" src="../../resources/js/general.js"></script>
+  <script src="../../resources/js/card.js" defer></script>
+</head>
+<body>
+  <quick-card 
+    speed="fast"
+    cost="1"
+    name="POWER RESONATES FROM THE LAND"
+    image="POWERRESONATESFROMTHELAND-trendingonartstation.png"
+    elements="earth,air"
+    range="1"
+    target="{dahan}"
+    artist-name="">
+    <rules>
+      <div>
+        Defend 4.
+      </div>
+      <br>
+      <div>
+      	If target land has your {presence}, you may add a {presence} and gain a {moon}. If you do, forget this Power.
+      </div>
+    </rules>
+  </quick-card>
+
+  <quick-card 
+    speed="slow"
+    cost="0"
+    name="Tempt with power"
+    image="TEMPTWITHPOWER.png"
+    elements="moon,air"
+    range="0,sacred-site"
+    target="any"
+    artist-name="ARTIST NAME">
+    <rules>
+    	<div>Gather 1 {town}.</div>
+      <div>Gather 1 {explorer}.</div>
+      <div>Gather up to 1 {dahan}.</div><br>
+      <threshold condition="4-air">
+        This power may be {fast}.
+      </threshold>
+    </rules>
+  </quick-card>
+
+  <quick-card
+    speed="slow"
+    cost="1"
+    name="read the texts of old again"
+    image="ancientlibrary-trendingonartstation.png"
+    elements="sun,moon,air"
+    range="----"
+    target="NONE"
+    target-title="TARGET"
+    artist-name="ARTIST NAME">
+    <rules>
+      <div>
+        You may repeat one of your Ancient Powers by paying its cost.
+      </div>
+    </rules>
+  </quick-card>
+  
+  <quick-card
+    speed="fast"
+    cost="1"
+    name="primal magic turns them savage"
+    image="PRIMALMAGICTURNSTHEMSAVAGE-trendingonartstation.png"
+    elements="moon,animal"
+    range="1,sacred-site"
+    target="ANY"
+    artist-name="ARTIST NAME">
+    <rules>
+      <div>
+        Add 1 {beast}.
+      </div>
+      <or></or>
+      <div>
+        If target land has {beast}, replace 1 {explorer} with 1 {beast}.
+      </div>
+    </rules>
+  </quick-card>
+
+</body>
+</html>

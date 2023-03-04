@@ -40,7 +40,7 @@
 
       <growth title="Growth">
         <sub-growth title="pick two" bordered>
-        <growth-group values="reclaim-one;gain-energy(1)"></growth-group>
+        <growth-group values="reclaim-one"></growth-group>
         <growth-group values="reclaim-one;gain-energy(1)"></growth-group>
         <growth-group values="gain-power-card;gain-energy(1)"></growth-group>
         <growth-group values="add-presence(2,mountain);gain-element(fire)"></growth-group>
@@ -49,7 +49,7 @@
 
     <presence-tracks>
       <energy-track values="0,1,fire,2,reclaim-one,3,earth"></energy-track>
-      <card-play-track values="1,push(one of your presence),2,3,any,4"></card-play-track>
+      <card-play-track values="1,push(one of your presence),2,3,any,reclaim-one"></card-play-track>
     </presence-tracks>
 
     <innate-powers>
@@ -68,7 +68,7 @@
       name="Steady Flows Reshape the Island"
       speed="slow"
       range="0"
-      target="your {presence}"
+      target="your{presence}"
       target-title="TARGET">
       <level threshold="2-fire">
           Push all of your {presence}.
