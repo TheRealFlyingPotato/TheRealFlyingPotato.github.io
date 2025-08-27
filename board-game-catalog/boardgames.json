@@ -754,5 +754,29 @@
     "cooperative": false,
     "competitive": true,
     "weight": 5
+  },
+  {
+    "id": 64,
+    "name": "Aeon's End",
+    "color": "#6a4c93",
+    "image": "images/aeons_end.webp",
+    "genre": "Cooperative Deck Building",
+    "description": "Players are mages defending the last bastion of humanity. Use unique decks without shuffling to battle relentless Nemesies.",
+    "player count": "1-4",
+    "cooperative": true,
+    "competitive": false,
+    "weight": 3
+  },
+  {
+    "id": 65,
+    "name": "Spirit Island",
+    "color": "#008b8b",
+    "image": "images/spirit_island.webp",
+    "genre": "Cooperative Strategy",
+    "description": "Players are powerful spirits protecting an island from colonizers. Combine unique powers and coordinate to repel invaders.",
+    "player count": "1-4",
+    "cooperative": true,
+    "competitive": false,
+    "weight": 4
   }
 ]
