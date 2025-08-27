@@ -1,0 +1,97 @@
+/* Print Styles */
+@media print {
+    /* Hide search interface */
+    .row:first-child {
+        display: none !important;
+    }
+    
+    /* Reset body and container */
+    body {
+        margin: 0;
+        padding: 10mm;
+        font-size: 9pt;
+        line-height: 1.2;
+    }
+    
+    .container-fluid {
+        max-width: none;
+        padding: 0;
+    }
+    
+    /* Hide game cards, show table instead */
+    .game-card {
+        display: none !important;
+    }
+    
+    .boardgames {
+        display: block;
+    }
+    
+    /* Print table styles */
+    .print-table {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10pt;
+    }
+    
+    .print-table th {
+        background: #f0f0f0;
+        padding: 6pt;
+        font-weight: bold;
+        text-align: left;
+        font-size: 8pt;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .print-table td {
+        padding: 4pt;
+        vertical-align: top;
+        font-size: 8pt;
+        word-wrap: break-word;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .print-table tr {
+        break-inside: avoid;
+    }
+    
+    /* Column widths */
+    .print-table .col-image { width: 12%; }
+    .print-table .col-name { width: 18%; }
+    .print-table .col-genre { width: 15%; }
+    .print-table .col-players { width: 10%; }
+    .print-table .col-weight { width: 10%; }
+    .print-table .col-description { width: 35%; }
+    
+    /* Image styling */
+    .print-table img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 2pt;
+    }
+    
+    /* Page breaks */
+    @page {
+        size: letter;
+        margin: 0.2in;
+    }
+    
+    h1, h2 {
+        page-break-after: avoid;
+    }
+    
+    .print-table {
+        page-break-inside: auto;
+    }
+    
+    .print-table tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+    }
+    
+    .print-table thead {
+        display: table-header-group;
+    }
+}

@@ -7,7 +7,71 @@ $(document).ready(function() {
     
     // Load URL parameters and apply filters if they exist
     loadUrlParameters();
+    
+    // Set up print functionality
+    setupPrint();
 });
+
+function setupPrint() {
+    // Create print table when page loads
+    window.addEventListener('beforeprint', createPrintTable);
+}
+
+function createPrintTable() {
+    // Remove existing print table
+    $('.print-table').remove();
+    
+    // Get all visible games
+    const visibleGames = [];
+    $('.game-card:visible').each(function() {
+        const gameData = {
+            image: $(this).find('img').attr('src') || '',
+            name: $(this).find('.card-title').text(),
+            genre: $(this).find('.badge.bg-secondary').text(),
+            players: $(this).find('.badge.bg-primary').text(),
+            weight: $(this).find('.badge.bg-info').text(),
+            description: $(this).data('description') || ''
+        };
+        visibleGames.push(gameData);
+    });
+    
+    // Create table HTML
+    let tableHtml = `
+        <table class="print-table">
+            <thead>
+                <tr>
+                    <th class="col-image">Image</th>
+                    <th class="col-name">Name</th>
+                    <th class="col-genre">Genre</th>
+                    <th class="col-players">Players</th>
+                    <th class="col-weight">Weight</th>
+                    <th class="col-description">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    
+    visibleGames.forEach(game => {
+        tableHtml += `
+            <tr>
+                <td class="col-image"><img src="${game.image}" alt="${game.name}"></td>
+                <td class="col-name">${game.name}</td>
+                <td class="col-genre">${game.genre}</td>
+                <td class="col-players">${game.players}</td>
+                <td class="col-weight">${game.weight}</td>
+                <td class="col-description">${game.description}</td>
+            </tr>
+        `;
+    });
+    
+    tableHtml += `
+            </tbody>
+        </table>
+    `;
+    
+    // Add table to page
+    $('.boardgames').after(tableHtml);
+}
 
 function loadUrlParameters() {
     const urlParams = new URLSearchParams(window.location.search);
