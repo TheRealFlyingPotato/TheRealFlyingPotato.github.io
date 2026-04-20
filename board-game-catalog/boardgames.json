@@ -12,7 +12,7 @@
     "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -28,7 +28,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/273814/deliverance",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/224037/codenames-duet",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -127,18 +127,18 @@
   },
   {
     "id": 10,
-    "name": "Sushi Go Party",
+    "name": "Sushi Go Medium Crunch",
     "color": "#f94144",
-    "image": "images/sushi_go_party.webp",
+    "image": "images/sushi_go_Medium Crunch.webp",
     "genre": "Card Drafting",
-    "description": "Draft sushi dishes to score the best combinations. Expanded party version adds variety and supports larger groups.",
+    "description": "Draft sushi dishes to score the best combinations. Expanded Medium Crunch version adds variety and supports larger groups.",
     "player count": "2-8",
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party",
+    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-Medium Crunch",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -193,7 +193,7 @@
     "weight": 1,
     "bggurl": "https://boardgamegeek.com/boardgame/246761/cahoots",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -209,7 +209,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/98778/hanabi",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -225,7 +225,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/245654/railroad-ink-deep-blue-edition",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -241,7 +241,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/131357/coup",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -257,7 +257,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -273,7 +273,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/324856/the-crew-mission-deep-sea",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -328,7 +328,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/143741/bang-the-dice-game",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -344,7 +344,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/359838/almost-innocent",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -373,7 +373,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/171131/captain-sonar",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -415,7 +415,7 @@
     "weight": 1,
     "bggurl": "https://boardgamegeek.com/boardgame/339754/wombat-kombat",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -444,7 +444,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/242302/space-base",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -460,7 +460,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/36218/dominion",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -502,7 +502,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/279537/the-search-for-planet-x",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -531,7 +531,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/438/scotland-yard",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -547,7 +547,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/102652/sentinels-of-the-multiverse",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -589,7 +589,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/256916/concordia-venus",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -631,7 +631,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/265736/tiny-towns",
     "category": [
-      "Party"
+      "Medium Crunch"
     ]
   },
   {
@@ -647,7 +647,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -663,7 +663,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/298069/cubitos",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -705,7 +705,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/101721/mage-wars-arena",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -760,7 +760,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/28143/race-for-the-galaxy",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -776,7 +776,7 @@
     "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/864/mage-knight",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -792,7 +792,7 @@
     "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/192135/too-many-bones",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -808,7 +808,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/194607/mystic-vale",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -824,7 +824,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/215341/thunderstone-quest",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -840,7 +840,7 @@
     "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/173563/uprising",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -856,7 +856,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -872,7 +872,7 @@
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -901,7 +901,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/229491/edge-of-darkness",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -917,7 +917,7 @@
     "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/246900/eclipse-second-dawn-for-the-galaxy",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -933,7 +933,7 @@
     "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/191189/aeons-end",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   },
   {
@@ -949,7 +949,7 @@
     "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/162886/spirit-island",
     "category": [
-      "Crunchy"
+      "High Crunch"
     ]
   }
 ]
