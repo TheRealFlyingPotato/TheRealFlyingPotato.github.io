@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python bgg_link_fetcher.py boardgames.json)",
+      "Bash(pip install *)",
+      "Bash(playwright install *)",
+      "Bash(python -m pip install playwright -q)",
+      "Bash(python -m playwright install chromium)",
+      "Bash(python image_editor.py)"
+    ]
+  }
+}

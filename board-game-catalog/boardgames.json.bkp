@@ -9,8 +9,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/174430/gloomhaven"
+    "weight": 5
   },
   {
     "id": 2,
@@ -22,8 +21,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/273814/deliverance"
+    "weight": 4
   },
   {
     "id": 3,
@@ -35,8 +33,7 @@
     "player count": "2",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/224037/codenames-duet"
+    "weight": 2
   },
   {
     "id": 4,
@@ -48,8 +45,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/166858/villainous-vikings-second-edition"
+    "weight": 3
   },
   {
     "id": 5,
@@ -61,8 +57,7 @@
     "player count": "2-8",
     "cooperative": false,
     "competitive": true,
-    "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/204135/skyjo"
+    "weight": 1
   },
   {
     "id": 6,
@@ -74,8 +69,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/257501/keyforge-call-of-the-archons"
+    "weight": 3
   },
   {
     "id": 7,
@@ -87,8 +81,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/221965/the-fox-in-the-forest"
+    "weight": 2
   },
   {
     "id": 8,
@@ -100,8 +93,7 @@
     "player count": "2",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/288169/the-fox-in-the-forest-duet"
+    "weight": 2
   },
   {
     "id": 9,
@@ -113,8 +105,7 @@
     "player count": "2-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/345972/cat-in-the-box-deluxe-edition"
+    "weight": 3
   },
   {
     "id": 10,
@@ -126,8 +117,7 @@
     "player count": "2-8",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party"
+    "weight": 2
   },
   {
     "id": 11,
@@ -139,8 +129,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/192240/control"
+    "weight": 2
   },
   {
     "id": 12,
@@ -152,8 +141,7 @@
     "player count": "3-10",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/147949/one-night-ultimate-werewolf"
+    "weight": 2
   },
   {
     "id": 13,
@@ -165,8 +153,7 @@
     "player count": "2-8",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/3699/killer-bunnies-and-the-quest-for-the-magic-carrot"
+    "weight": 2
   },
   {
     "id": 14,
@@ -178,8 +165,7 @@
     "player count": "2-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/246761/cahoots"
+    "weight": 1
   },
   {
     "id": 15,
@@ -191,8 +177,7 @@
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/98778/hanabi"
+    "weight": 2
   },
   {
     "id": 16,
@@ -204,8 +189,7 @@
     "player count": "1-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/245654/railroad-ink-deep-blue-edition"
+    "weight": 2
   },
   {
     "id": 17,
@@ -217,8 +201,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/131357/coup"
+    "weight": 2
   },
   {
     "id": 18,
@@ -230,8 +213,7 @@
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine"
+    "weight": 3
   },
   {
     "id": 19,
@@ -243,8 +225,7 @@
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/324856/the-crew-mission-deep-sea"
+    "weight": 3
   },
   {
     "id": 20,
@@ -256,8 +237,7 @@
     "player count": "2-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/429293/the-lord-of-the-rings-the-fellowship-of-the-ring-t"
+    "weight": 3
   },
   {
     "id": 21,
@@ -269,8 +249,7 @@
     "player count": "1-2",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/179275/one-deck-dungeon"
+    "weight": 3
   },
   {
     "id": 22,
@@ -282,8 +261,7 @@
     "player count": "3-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/232079/how-to-rob-a-bank"
+    "weight": 2
   },
   {
     "id": 23,
@@ -295,8 +273,7 @@
     "player count": "3-8",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/143741/bang-the-dice-game"
+    "weight": 2
   },
   {
     "id": 24,
@@ -308,8 +285,7 @@
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/359838/almost-innocent"
+    "weight": 2
   },
   {
     "id": 25,
@@ -321,8 +297,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/246192/gizmos"
+    "weight": 2
   },
   {
     "id": 26,
@@ -334,8 +309,7 @@
     "player count": "4-8",
     "cooperative": true,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/171131/captain-sonar"
+    "weight": 4
   },
   {
     "id": 27,
@@ -347,8 +321,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/180974/potion-explosion"
+    "weight": 2
   },
   {
     "id": 28,
@@ -360,8 +333,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/378654/threads-of-fate"
+    "weight": 3
   },
   {
     "id": 29,
@@ -373,8 +345,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/339754/wombat-kombat"
+    "weight": 1
   },
   {
     "id": 30,
@@ -386,8 +357,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/226605/fire-tower"
+    "weight": 2
   },
   {
     "id": 31,
@@ -399,8 +369,7 @@
     "player count": "2-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/242302/space-base"
+    "weight": 2
   },
   {
     "id": 32,
@@ -412,8 +381,7 @@
     "player count": "2-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/36218/dominion"
+    "weight": 4
   },
   {
     "id": 33,
@@ -425,8 +393,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/249259/war-chest"
+    "weight": 3
   },
   {
     "id": 34,
@@ -438,8 +405,7 @@
     "player count": "2-7",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/181304/mysterium"
+    "weight": 3
   },
   {
     "id": 35,
@@ -451,8 +417,7 @@
     "player count": "1-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/279537/the-search-for-planet-x"
+    "weight": 3
   },
   {
     "id": 36,
@@ -464,8 +429,7 @@
     "player count": "1-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/356123/turing-machine"
+    "weight": 3
   },
   {
     "id": 37,
@@ -477,8 +441,7 @@
     "player count": "2-6",
     "cooperative": true,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/438/scotland-yard"
+    "weight": 2
   },
   {
     "id": 38,
@@ -490,8 +453,7 @@
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/102652/sentinels-of-the-multiverse"
+    "weight": 3
   },
   {
     "id": 39,
@@ -503,8 +465,7 @@
     "player count": "1-5",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/358124/mists-over-carcassonne"
+    "weight": 2
   },
   {
     "id": 40,
@@ -516,8 +477,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/77423/the-lord-of-the-rings-the-card-game"
+    "weight": 4
   },
   {
     "id": 41,
@@ -529,8 +489,7 @@
     "player count": "2-6",
     "cooperative": true,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/256916/concordia-venus"
+    "weight": 4
   },
   {
     "id": 42,
@@ -542,8 +501,7 @@
     "player count": "1-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/266192/wingspan"
+    "weight": 3
   },
   {
     "id": 43,
@@ -555,8 +513,7 @@
     "player count": "1-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/220308/gaia-project"
+    "weight": 5
   },
   {
     "id": 44,
@@ -568,8 +525,7 @@
     "player count": "1-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/265736/tiny-towns"
+    "weight": 2
   },
   {
     "id": 45,
@@ -581,8 +537,7 @@
     "player count": "1-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal"
+    "weight": 3
   },
   {
     "id": 46,
@@ -594,8 +549,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/298069/cubitos"
+    "weight": 2
   },
   {
     "id": 47,
@@ -607,8 +561,7 @@
     "player count": "2-7",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/271751/the-captain-is-dead-dangerous-planet"
+    "weight": 3
   },
   {
     "id": 48,
@@ -620,8 +573,7 @@
     "player count": "2-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/131111/codex-card-time-strategy-deluxe-set"
+    "weight": 4
   },
   {
     "id": 49,
@@ -633,8 +585,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/101721/mage-wars-arena"
+    "weight": 4
   },
   {
     "id": 50,
@@ -646,8 +597,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/58281/summoner-wars"
+    "weight": 3
   },
   {
     "id": 51,
@@ -659,8 +609,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/268201/dice-throne"
+    "weight": 3
   },
   {
     "id": 52,
@@ -672,8 +621,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/293941/mage-noir"
+    "weight": 3
   },
   {
     "id": 53,
@@ -685,8 +633,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/28143/race-for-the-galaxy"
+    "weight": 3
   },
   {
     "id": 54,
@@ -698,8 +645,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/864/mage-knight"
+    "weight": 5
   },
   {
     "id": 55,
@@ -711,8 +657,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/192135/too-many-bones"
+    "weight": 5
   },
   {
     "id": 56,
@@ -724,8 +669,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/194607/mystic-vale"
+    "weight": 3
   },
   {
     "id": 57,
@@ -737,8 +681,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/215341/thunderstone-quest"
+    "weight": 4
   },
   {
     "id": 58,
@@ -750,8 +693,7 @@
     "player count": "2-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/173563/uprising"
+    "weight": 5
   },
   {
     "id": 59,
@@ -763,8 +705,7 @@
     "player count": "1",
     "cooperative": false,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game"
+    "weight": 3
   },
   {
     "id": 60,
@@ -776,8 +717,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable"
+    "weight": 2
   },
   {
     "id": 61,
@@ -789,8 +729,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/329551/mosaic-a-story-of-civilization"
+    "weight": 4
   },
   {
     "id": 62,
@@ -802,8 +741,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": true,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/229491/edge-of-darkness"
+    "weight": 4
   },
   {
     "id": 63,
@@ -815,8 +753,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/246900/eclipse-second-dawn-for-the-galaxy"
+    "weight": 5
   },
   {
     "id": 64,
@@ -828,8 +765,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/191189/aeons-end"
+    "weight": 3
   },
   {
     "id": 65,
@@ -841,7 +777,6 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/162886/spirit-island"
+    "weight": 4
   }
 ]
