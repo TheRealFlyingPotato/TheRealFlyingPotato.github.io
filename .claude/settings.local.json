@@ -6,7 +6,8 @@
       "Bash(playwright install *)",
       "Bash(python -m pip install playwright -q)",
       "Bash(python -m playwright install chromium)",
-      "Bash(python image_editor.py)"
+      "Bash(python image_editor.py)",
+      "Bash(python category_manager.py)"
     ]
   }
 }

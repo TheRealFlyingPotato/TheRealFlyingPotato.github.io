@@ -1,3 +1,7 @@
+// ── Category filter default ───────────────────────────────────────────────────
+// List category names to pre-check on page load. [] = show all by default.
+const DEFAULT_CATEGORIES = [];
+
 $(document).ready(function() {
     setupFilterPanel();
     loadBoardGames();
@@ -143,6 +147,14 @@ function applyFilters() {
         }
         if (filters.id && !matchesIdFilter(filters.id, gameData.id)) {
             show = false;
+        }
+
+        const checkedCategories = $('.category-checkbox:checked').map((_, el) => el.value).get();
+        if (checkedCategories.length > 0) {
+            const tileCategories = JSON.parse(tile.data('categories') || '[]');
+            if (!checkedCategories.some(cat => tileCategories.includes(cat))) {
+                show = false;
+            }
         }
 
         if (show) {
@@ -291,6 +303,37 @@ function displayBoardGames(games) {
         if (game.hide === 1 && !showHidden) return;
         container.append(createGameTile(game));
     });
+
+    buildCategoryCheckboxes(games);
+}
+
+function buildCategoryCheckboxes(games) {
+    const allCategories = [...new Set(games.flatMap(g => g.category || []))].sort();
+
+    if (allCategories.length === 0) {
+        $('#categoryFilterSection').hide();
+        return;
+    }
+
+    const container = $('#categoryFilter').empty();
+    allCategories.forEach(function(cat) {
+        const id = 'cat-' + cat.replace(/\s+/g, '-');
+        const checked = DEFAULT_CATEGORIES.includes(cat) ? 'checked' : '';
+        container.append(`
+            <div class="form-check">
+                <input class="form-check-input category-checkbox" type="checkbox"
+                       id="${id}" value="${cat}" ${checked}>
+                <label class="form-check-label" for="${id}">${cat}</label>
+            </div>
+        `);
+    });
+
+    $('#categoryFilterSection').show();
+    $('.category-checkbox').on('change', applyFilters);
+
+    if (DEFAULT_CATEGORIES.length > 0) {
+        applyFilters();
+    }
 }
 
 // ── Tile creation ─────────────────────────────────────────────────────────────
@@ -304,7 +347,8 @@ function createGameTile(game) {
         'data-description': (game.description || '').toLowerCase(),
         'data-player-count': game['player count'] || '',
         'data-notes': (game.notes || '').toLowerCase(),
-        'data-weight': game.weight || ''
+        'data-weight': game.weight || '',
+        'data-categories': JSON.stringify(game.category || [])
     });
 
     // Image

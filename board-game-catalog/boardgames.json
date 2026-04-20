@@ -10,7 +10,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/174430/gloomhaven"
+    "bggurl": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 2,
@@ -23,7 +26,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/273814/deliverance"
+    "bggurl": "https://boardgamegeek.com/boardgame/273814/deliverance",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 3,
@@ -36,7 +42,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/224037/codenames-duet"
+    "bggurl": "https://boardgamegeek.com/boardgame/224037/codenames-duet",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 4,
@@ -127,7 +136,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party"
+    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 11,
@@ -179,7 +191,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/246761/cahoots"
+    "bggurl": "https://boardgamegeek.com/boardgame/246761/cahoots",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 15,
@@ -192,7 +207,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/98778/hanabi"
+    "bggurl": "https://boardgamegeek.com/boardgame/98778/hanabi",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 16,
@@ -205,7 +223,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/245654/railroad-ink-deep-blue-edition"
+    "bggurl": "https://boardgamegeek.com/boardgame/245654/railroad-ink-deep-blue-edition",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 17,
@@ -218,7 +239,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/131357/coup"
+    "bggurl": "https://boardgamegeek.com/boardgame/131357/coup",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 18,
@@ -231,7 +255,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine"
+    "bggurl": "https://boardgamegeek.com/boardgame/284083/the-crew-the-quest-for-planet-nine",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 19,
@@ -244,7 +271,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/324856/the-crew-mission-deep-sea"
+    "bggurl": "https://boardgamegeek.com/boardgame/324856/the-crew-mission-deep-sea",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 20,
@@ -296,7 +326,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/143741/bang-the-dice-game"
+    "bggurl": "https://boardgamegeek.com/boardgame/143741/bang-the-dice-game",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 24,
@@ -309,7 +342,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/359838/almost-innocent"
+    "bggurl": "https://boardgamegeek.com/boardgame/359838/almost-innocent",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 25,
@@ -335,7 +371,10 @@
     "cooperative": true,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/171131/captain-sonar"
+    "bggurl": "https://boardgamegeek.com/boardgame/171131/captain-sonar",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 27,
@@ -374,7 +413,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/339754/wombat-kombat"
+    "bggurl": "https://boardgamegeek.com/boardgame/339754/wombat-kombat",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 30,
@@ -400,7 +442,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/242302/space-base"
+    "bggurl": "https://boardgamegeek.com/boardgame/242302/space-base",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 32,
@@ -413,7 +458,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/36218/dominion"
+    "bggurl": "https://boardgamegeek.com/boardgame/36218/dominion",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 33,
@@ -452,7 +500,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/279537/the-search-for-planet-x"
+    "bggurl": "https://boardgamegeek.com/boardgame/279537/the-search-for-planet-x",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 36,
@@ -478,7 +529,10 @@
     "cooperative": true,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/438/scotland-yard"
+    "bggurl": "https://boardgamegeek.com/boardgame/438/scotland-yard",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 38,
@@ -491,7 +545,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/102652/sentinels-of-the-multiverse"
+    "bggurl": "https://boardgamegeek.com/boardgame/102652/sentinels-of-the-multiverse",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 39,
@@ -530,7 +587,10 @@
     "cooperative": true,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/256916/concordia-venus"
+    "bggurl": "https://boardgamegeek.com/boardgame/256916/concordia-venus",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 42,
@@ -569,7 +629,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/265736/tiny-towns"
+    "bggurl": "https://boardgamegeek.com/boardgame/265736/tiny-towns",
+    "category": [
+      "Party"
+    ]
   },
   {
     "id": 45,
@@ -582,7 +645,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal"
+    "bggurl": "https://boardgamegeek.com/boardgame/366013/heat-pedal-to-the-metal",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 46,
@@ -595,7 +661,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/298069/cubitos"
+    "bggurl": "https://boardgamegeek.com/boardgame/298069/cubitos",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 47,
@@ -634,7 +703,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/101721/mage-wars-arena"
+    "bggurl": "https://boardgamegeek.com/boardgame/101721/mage-wars-arena",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 50,
@@ -686,7 +758,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/28143/race-for-the-galaxy"
+    "bggurl": "https://boardgamegeek.com/boardgame/28143/race-for-the-galaxy",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 54,
@@ -699,7 +774,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/864/mage-knight"
+    "bggurl": "https://boardgamegeek.com/boardgame/864/mage-knight",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 55,
@@ -712,7 +790,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/192135/too-many-bones"
+    "bggurl": "https://boardgamegeek.com/boardgame/192135/too-many-bones",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 56,
@@ -725,7 +806,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/194607/mystic-vale"
+    "bggurl": "https://boardgamegeek.com/boardgame/194607/mystic-vale",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 57,
@@ -738,7 +822,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/215341/thunderstone-quest"
+    "bggurl": "https://boardgamegeek.com/boardgame/215341/thunderstone-quest",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 58,
@@ -751,7 +838,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/173563/uprising"
+    "bggurl": "https://boardgamegeek.com/boardgame/173563/uprising",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 59,
@@ -764,7 +854,10 @@
     "cooperative": false,
     "competitive": false,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game"
+    "bggurl": "https://boardgamegeek.com/boardgame/338960/slay-the-spire-the-board-game",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 60,
@@ -777,7 +870,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable"
+    "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 61,
@@ -803,7 +899,10 @@
     "cooperative": true,
     "competitive": true,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/229491/edge-of-darkness"
+    "bggurl": "https://boardgamegeek.com/boardgame/229491/edge-of-darkness",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 63,
@@ -816,7 +915,10 @@
     "cooperative": false,
     "competitive": true,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/246900/eclipse-second-dawn-for-the-galaxy"
+    "bggurl": "https://boardgamegeek.com/boardgame/246900/eclipse-second-dawn-for-the-galaxy",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 64,
@@ -829,7 +931,10 @@
     "cooperative": true,
     "competitive": false,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/191189/aeons-end"
+    "bggurl": "https://boardgamegeek.com/boardgame/191189/aeons-end",
+    "category": [
+      "Crunchy"
+    ]
   },
   {
     "id": 65,
@@ -842,6 +947,9 @@
     "cooperative": true,
     "competitive": false,
     "weight": 4,
-    "bggurl": "https://boardgamegeek.com/boardgame/162886/spirit-island"
+    "bggurl": "https://boardgamegeek.com/boardgame/162886/spirit-island",
+    "category": [
+      "Crunchy"
+    ]
   }
 ]

@@ -59,6 +59,15 @@
     color: #000;
 }
 
+#categoryFilter .form-check {
+    margin-bottom: 2px;
+}
+
+#categoryFilter .form-check-label {
+    font-size: 0.8rem;
+    color: #444;
+}
+
 .filter-fields .form-label {
     font-size: 0.8rem;
     font-weight: 600;
