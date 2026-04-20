@@ -347,7 +347,7 @@ function parsePlayerCount(playerCountString) {
 
 function loadBoardGames() {
     // Try to load local JSON file first
-    $.getJSON('boardgames.json')
+    $.getJSON('https://raw.githubusercontent.com/TheRealFlyingPotato/TheRealFlyingPotato.github.io/refs/heads/master/board-game-catalog/boardgames.json')
         .done(function(data) {
             displayBoardGames(data);
         })
