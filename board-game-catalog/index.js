@@ -151,7 +151,7 @@ function applyFilters() {
 
         const checkedCategories = $('.category-checkbox:checked').map((_, el) => el.value).get();
         if (checkedCategories.length > 0) {
-            const tileCategories = JSON.parse(tile.data('categories') || '[]');
+            const tileCategories = tile.data('categories') || [];
             if (!checkedCategories.some(cat => tileCategories.includes(cat))) {
                 show = false;
             }

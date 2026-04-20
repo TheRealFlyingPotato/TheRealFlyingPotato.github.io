@@ -126,22 +126,6 @@
     "bggurl": "https://boardgamegeek.com/boardgame/345972/cat-in-the-box-deluxe-edition"
   },
   {
-    "id": 10,
-    "name": "Sushi Go Medium Crunch",
-    "color": "#f94144",
-    "image": "images/sushi_go_Medium Crunch.webp",
-    "genre": "Card Drafting",
-    "description": "Draft sushi dishes to score the best combinations. Expanded Medium Crunch version adds variety and supports larger groups.",
-    "player count": "2-8",
-    "cooperative": false,
-    "competitive": true,
-    "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/192291/sushi-go-Medium Crunch",
-    "category": [
-      "Medium Crunch"
-    ]
-  },
-  {
     "id": 11,
     "name": "Control",
     "color": "#3a86ff",
