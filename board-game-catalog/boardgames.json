@@ -935,5 +935,70 @@
     "category": [
       "High Crunch"
     ]
+  },
+  {
+    "id": 66,
+    "name": "TacTile",
+    "color": "#4cc9f0",
+    "image": "images/tactile.webp",
+    "genre": "Abstract Strategy",
+    "description": "A two-player tactical tile-laying game of spatial reasoning and area control. Place dominoes strategically to surround your opponent and claim the most territory.",
+    "player count": "2",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 2,
+    "bggurl": "https://boardgamegeek.com/boardgame/tactile"
+  },
+  {
+    "id": 67,
+    "name": "So You've Been Cursed",
+    "color": "#9b2226",
+    "image": "images/so_youve_been_cursed.webp",
+    "genre": "Party Game",
+    "description": "A chaotic party game where players are saddled with ridiculous curses imposing absurd behavioral restrictions. Catch your opponents breaking their curses while sneaking through your own.",
+    "player count": "3-8",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 1,
+    "bggurl": "https://boardgamegeek.com/boardgame/so-youve-been-cursed"
+  },
+  {
+    "id": 68,
+    "name": "Alien Frontiers",
+    "color": "#0077b6",
+    "image": "images/alien_frontiers.webp",
+    "genre": "Dice Placement",
+    "description": "Use dice as workers to colonize an alien planet, managing orbiting ships and planetary outposts. Leverage alien technology cards and outmaneuver rivals to claim the most territory.",
+    "player count": "2-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 3,
+    "bggurl": "https://boardgamegeek.com/boardgame/70198/alien-frontiers"
+  },
+  {
+    "id": 69,
+    "name": "Eminent Domain",
+    "color": "#5e548e",
+    "image": "images/eminent_domain.webp",
+    "genre": "Deck Building",
+    "description": "Build a galactic empire through simultaneous role selection and deck building. Survey planets, colonize worlds, and develop technologies to earn the most victory points.",
+    "player count": "2-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 3,
+    "bggurl": "https://boardgamegeek.com/boardgame/95688/eminent-domain"
+  },
+  {
+    "id": 70,
+    "name": "Direwild",
+    "color": "#588157",
+    "image": "images/direwild.webp",
+    "genre": "Cooperative",
+    "description": "Players tame and train wild creatures to battle a spreading corruption. Combine unique creature powers and coordinate abilities to protect the wilderness before it falls.",
+    "player count": "1-4",
+    "cooperative": true,
+    "competitive": false,
+    "weight": 2,
+    "bggurl": "https://boardgamegeek.com/boardgame/207839/direwild"
   }
 ]
