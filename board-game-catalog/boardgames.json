@@ -58,7 +58,7 @@
     "cooperative": false,
     "competitive": true,
     "weight": 3,
-    "bggurl": "https://boardgamegeek.com/boardgame/166858/villainous-vikings-second-edition"
+    "bggurl": "https://boardgamegeek.com/boardgame/256382/disney-villainous-the-worst-takes-it-all"
   },
   {
     "id": 5,
@@ -321,7 +321,7 @@
     "color": "#3d405b",
     "image": "images/almost_innocent.webp",
     "genre": "Deduction",
-    "description": "A cooperative deduction game of solving crimes together. Each player knows clues about others but not their own.",
+    "description": "A cooperative deduction game of proving your innocence. Each player knows clues about others but not themselves.",
     "player count": "2-5",
     "cooperative": true,
     "competitive": false,
@@ -379,7 +379,7 @@
     "color": "#118ab2",
     "image": "images/threads_of_fate.webp",
     "genre": "Narrative",
-    "description": "A cooperative time-travel adventure with branching stories. Players unravel mysteries by making impactful choices.",
+    "description": "A cooperative puzzle narrative adventure through Norse mythology. Solve layered puzzles across four episodes to reshape the threads of fate.",
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
@@ -388,16 +388,16 @@
   },
   {
     "id": 29,
-    "name": "Wombat Kombat",
+    "name": "Hand-to-Hand Wombat",
     "color": "#8d99ae",
-    "image": "images/wombat_kombat.webp",
-    "genre": "Card Battle",
-    "description": "Battle wombats in chaotic card combat. Play abilities and tricks to outlast rivals in silly showdowns.",
-    "player count": "2-4",
-    "cooperative": false,
-    "competitive": true,
+    "image": "images/hand_to_hand_wombat.webp",
+    "genre": "Party",
+    "description": "A game of teamwork, towers, and troublemakers. Good Wombats work together to build towers with their eyes closed — but Bad Wombats are secretly sabotaging their efforts.",
+    "player count": "3-6",
+    "cooperative": true,
+    "competitive": false,
     "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/339754/wombat-kombat",
+    "bggurl": "https://boardgamegeek.com/boardgame/356909/hand-to-hand-wombat",
     "category": [
       "Medium Crunch"
     ]
@@ -822,7 +822,7 @@
     "cooperative": true,
     "competitive": false,
     "weight": 5,
-    "bggurl": "https://boardgamegeek.com/boardgame/173563/uprising",
+    "bggurl": "https://boardgamegeek.com/boardgame/284121/uprising-curse-of-the-last-emperor",
     "category": [
       "High Crunch"
     ]
@@ -834,7 +834,7 @@
     "image": "images/slay_the_spire.webp",
     "genre": "Deck Building Roguelike",
     "description": "A roguelike deck builder where players ascend a spire of enemies. Combine cards and relics for powerful synergies.",
-    "player count": "1",
+    "player count": "1-4",
     "cooperative": false,
     "competitive": false,
     "weight": 3,
@@ -848,11 +848,11 @@
     "name": "Unstoppable",
     "color": "#264653",
     "image": "images/unstoppable.webp",
-    "genre": "Card Game",
-    "description": "A fast-paced battle of timing and combos. Players chain abilities to overwhelm rivals in quick rounds.",
-    "player count": "2-4",
-    "cooperative": false,
-    "competitive": true,
+    "genre": "Cooperative Deck Building",
+    "description": "A solo or cooperative roguelite deckbuilder with card crafting. Build momentum through chained combos to overcome escalating threats across multiple worlds.",
+    "player count": "1-2",
+    "cooperative": true,
+    "competitive": false,
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable",
     "category": [
@@ -947,20 +947,20 @@
     "cooperative": false,
     "competitive": true,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/tactile"
+    "bggurl": "https://boardgamegeek.com/boardgame/415808/tactile"
   },
   {
     "id": 67,
     "name": "So You've Been Cursed",
     "color": "#9b2226",
     "image": "images/so_youve_been_cursed.webp",
-    "genre": "Party Game",
-    "description": "A chaotic party game where players are saddled with ridiculous curses imposing absurd behavioral restrictions. Catch your opponents breaking their curses while sneaking through your own.",
-    "player count": "3-8",
+    "genre": "Asymmetric",
+    "description": "An asymmetric game where a Wizard cursed into a monster must find a cure before sunrise, while the Monster player roams the village feeding on villagers and evolving into its final form.",
+    "player count": "1-2",
     "cooperative": false,
     "competitive": true,
     "weight": 1,
-    "bggurl": "https://boardgamegeek.com/boardgame/so-youve-been-cursed"
+    "bggurl": "https://boardgamegeek.com/boardgame/424125/so-youve-been-cursed"
   },
   {
     "id": 68,
@@ -994,11 +994,11 @@
     "color": "#588157",
     "image": "images/direwild.webp",
     "genre": "Cooperative",
-    "description": "Players tame and train wild creatures to battle a spreading corruption. Combine unique creature powers and coordinate abilities to protect the wilderness before it falls.",
+    "description": "A cooperative deckbuilding dungeon crawler where animists summon and combine creatures to defeat the corrupted Karn. Progress through three chapters with persistent upgrades.",
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
     "weight": 2,
-    "bggurl": "https://boardgamegeek.com/boardgame/207839/direwild"
+    "bggurl": "https://boardgamegeek.com/boardgame/218376/direwild"
   }
 ]
