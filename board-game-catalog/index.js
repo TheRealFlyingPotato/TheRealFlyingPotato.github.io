@@ -3,24 +3,73 @@
 const DEFAULT_CATEGORIES = [];
 
 $(document).ready(function() {
-    setupFilterPanel();
+    setupWeightFilter();
+    setupPlayerDropdown();
     loadBoardGames();
     setupFilters();
     loadUrlParameters();
     setupPrint();
 });
 
-// ── Filter panel toggle ───────────────────────────────────────────────────────
+// ── Weight circle toggle ──────────────────────────────────────────────────────
 
-function setupFilterPanel() {
-    $('#filterToggle').on('click', function() {
-        $('#filterPanel').addClass('open');
-        $('#filterToggle').addClass('hidden');
+function setupWeightFilter() {
+    $('.weight-btn').on('click', function() {
+        $('.weight-btn').removeClass('active');
+        $(this).addClass('active');
+        applyFilters();
+    });
+}
+
+function getSelectedWeights() {
+    return $('.weight-btn.active[data-weight!="any"]')
+        .map(function() { return parseInt($(this).data('weight')); })
+        .get();
+}
+
+// ── Player count dropdown ─────────────────────────────────────────────────────
+
+function setupPlayerDropdown() {
+    $('#playerDropdownBtn').on('click', function(e) {
+        e.stopPropagation();
+        $('#playerDropdownMenu').toggleClass('open');
+        $(this).toggleClass('open');
     });
 
-    $('#filterClose').on('click', function() {
-        $('#filterPanel').removeClass('open');
-        $('#filterToggle').removeClass('hidden');
+    $(document).on('click.playerDropdown', function(e) {
+        if (!$(e.target).closest('#playerDropdownWrap').length) {
+            $('#playerDropdownMenu').removeClass('open');
+            $('#playerDropdownBtn').removeClass('open');
+        }
+    });
+
+    $(document).on('keydown.playerDropdown', function(e) {
+        if (e.key === 'Escape') {
+            $('#playerDropdownMenu').removeClass('open');
+            $('#playerDropdownBtn').removeClass('open');
+        }
+    });
+
+    $('.player-count-check').on('change', function() {
+        updatePlayerDropdownLabel();
+        applyFilters();
+    });
+}
+
+function updatePlayerDropdownLabel() {
+    const selected = $('.player-count-check:checked').map(function() { return this.value; }).get();
+    $('#playerDropdownLabel').text(selected.length === 0 ? 'Any' : selected.join(', '));
+}
+
+function getSelectedPlayerCounts() {
+    return $('.player-count-check:checked').map(function() { return this.value; }).get();
+}
+
+function matchesPlayerCountCheckboxes(selectedCounts, gamePlayerCount) {
+    const gameCounts = parsePlayerCount(gamePlayerCount);
+    return selectedCounts.some(function(sel) {
+        if (sel === '8+') return gameCounts.some(function(n) { return n >= 8; });
+        return gameCounts.includes(parseInt(sel));
     });
 }
 
@@ -102,22 +151,15 @@ function updateUrlParameters() {
 // ── Filters ───────────────────────────────────────────────────────────────────
 
 function setupFilters() {
-    $('#nameFilter, #playerCountFilter, #genreFilter, #weightFilter, #idFilter').on('input', function() {
-        applyFilters();
-        if ($(this).attr('id') === 'idFilter') {
-            updateUrlParameters();
-        }
-    });
+    $('#nameFilter, #genreFilter').on('input', applyFilters);
 }
 
 function applyFilters() {
-    const filters = {
-        name: $('#nameFilter').val().trim(),
-        playerCount: $('#playerCountFilter').val().trim(),
-        genre: $('#genreFilter').val().trim(),
-        weight: $('#weightFilter').val().trim(),
-        id: $('#idFilter').val().trim()
-    };
+    const nameFilter = $('#nameFilter').val().trim();
+    const genreFilter = $('#genreFilter').val().trim();
+    const idFilter = $('#idFilter').val().trim();
+    const selectedWeights = getSelectedWeights();
+    const selectedPlayerCounts = getSelectedPlayerCounts();
 
     $('.game-tile').each(function() {
         const tile = $(this);
@@ -133,19 +175,19 @@ function applyFilters() {
 
         let show = true;
 
-        if (filters.name && !matchesTextFilter(filters.name, gameData.name + ' ' + gameData.description + ' ' + gameData.notes)) {
+        if (nameFilter && !matchesTextFilter(nameFilter, gameData.name + ' ' + gameData.description + ' ' + gameData.notes)) {
             show = false;
         }
-        if (filters.playerCount && !matchesPlayerCountFilter(filters.playerCount, gameData.playerCount)) {
+        if (genreFilter && !matchesTextFilter(genreFilter, gameData.genre)) {
             show = false;
         }
-        if (filters.genre && !matchesTextFilter(filters.genre, gameData.genre)) {
+        if (idFilter && !matchesIdFilter(idFilter, gameData.id)) {
             show = false;
         }
-        if (filters.weight && !matchesWeightFilter(filters.weight, gameData.weight)) {
+        if (selectedWeights.length > 0 && !selectedWeights.includes(parseInt(gameData.weight))) {
             show = false;
         }
-        if (filters.id && !matchesIdFilter(filters.id, gameData.id)) {
+        if (selectedPlayerCounts.length > 0 && !matchesPlayerCountCheckboxes(selectedPlayerCounts, gameData.playerCount)) {
             show = false;
         }
 
@@ -157,11 +199,7 @@ function applyFilters() {
             }
         }
 
-        if (show) {
-            tile.show();
-        } else {
-            tile.hide();
-        }
+        tile.toggle(show);
     });
 }
 
@@ -178,47 +216,6 @@ function matchesTextFilter(filterValue, gameText) {
         return orTerms.some(term => lowerGameText.includes(term));
     }
     return lowerGameText.includes(lowerFilter);
-}
-
-function matchesPlayerCountFilter(filterValue, gamePlayerCount) {
-    if (filterValue.startsWith('=')) {
-        const exactNum = parseInt(filterValue.substring(1));
-        if (!isNaN(exactNum)) {
-            return gamePlayerCount.toString() === exactNum.toString();
-        }
-    }
-
-    const processedFilter = processNumericFilter(filterValue);
-    const gamePlayerNumbers = parsePlayerCount(gamePlayerCount);
-
-    if (filterValue.includes('&')) {
-        const andTerms = filterValue.split('&').map(term => term.trim());
-        return andTerms.every(term => {
-            if (term.startsWith('=')) {
-                const exactNum = parseInt(term.substring(1));
-                return gamePlayerCount.toString() === exactNum.toString();
-            }
-            const termNumbers = processNumericFilter(term);
-            return termNumbers.some(filterNum => gamePlayerNumbers.some(gameNum => gameNum === filterNum));
-        });
-    }
-
-    return processedFilter.some(filterNum => gamePlayerNumbers.some(gameNum => gameNum === filterNum));
-}
-
-function matchesWeightFilter(filterValue, gameWeight) {
-    const processedFilter = processNumericFilter(filterValue);
-    const gameWeightNum = parseInt(gameWeight);
-
-    if (filterValue.includes('&')) {
-        const andTerms = filterValue.split('&').map(term => term.trim());
-        return andTerms.every(term => {
-            const termNumbers = processNumericFilter(term);
-            return termNumbers.includes(gameWeightNum);
-        });
-    }
-
-    return processedFilter.includes(gameWeightNum);
 }
 
 function matchesIdFilter(filterValue, gameId) {
@@ -328,7 +325,6 @@ function buildCategoryCheckboxes(games) {
         `);
     });
 
-    $('#categoryFilterSection').show();
     $('.category-checkbox').on('change', applyFilters);
 
     if (DEFAULT_CATEGORIES.length > 0) {

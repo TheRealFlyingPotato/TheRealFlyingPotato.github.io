@@ -13,38 +13,54 @@
 </head>
 <body>
 
-    <!-- Filter toggle button (always visible, fixed) -->
-    <button id="filterToggle" title="Open filters">&#8250;</button>
-
-    <!-- Floating filter panel -->
-    <div id="filterPanel">
-        <button id="filterClose" title="Close filters">&#8249;</button>
-        <div class="filter-fields">
-            <div class="mb-3">
-                <label for="nameFilter" class="form-label">Name</label>
-                <input type="text" class="form-control form-control-sm" id="nameFilter" placeholder="Search by name...">
-            </div>
-            <div class="mb-3">
-                <label for="playerCountFilter" class="form-label">Player Count</label>
-                <input type="text" class="form-control form-control-sm" id="playerCountFilter" placeholder="e.g. 2-4, 3, 4+">
-            </div>
-            <div class="mb-3">
-                <label for="genreFilter" class="form-label">Genre</label>
-                <input type="text" class="form-control form-control-sm" id="genreFilter" placeholder="">
-            </div>
-            <div class="mb-3">
-                <label for="weightFilter" class="form-label">Weight</label>
-                <input type="text" class="form-control form-control-sm" id="weightFilter" placeholder="1-5">
-            </div>
-            <div class="mb-3">
-                <label for="idFilter" class="form-label">ID</label>
-                <input type="text" class="form-control form-control-sm" id="idFilter" placeholder="1,3,5">
-            </div>
-            <div class="mb-3" id="categoryFilterSection" style="display:none;">
-                <label class="form-label">Category</label>
-                <div id="categoryFilter"></div>
+    <!-- Sticky filter bar -->
+    <div id="filterBar">
+        <div class="filter-group filter-group--name">
+            <label for="nameFilter">Name</label>
+            <input type="text" class="filter-input" id="nameFilter" placeholder="Search...">
+        </div>
+        <div class="filter-group filter-group--genre">
+            <label for="genreFilter">Genre</label>
+            <input type="text" class="filter-input" id="genreFilter" placeholder="">
+        </div>
+        <div class="filter-group filter-group--players">
+            <label>Players</label>
+            <div id="playerDropdownWrap">
+                <button class="filter-input filter-dropdown-btn" id="playerDropdownBtn" type="button">
+                    <span id="playerDropdownLabel">Any</span>
+                    <span class="dropdown-arrow">&#9660;</span>
+                </button>
+                <div class="player-dropdown-menu" id="playerDropdownMenu">
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="1"> 1</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="2"> 2</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="3"> 3</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="4"> 4</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="5"> 5</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="6"> 6</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="7"> 7</label>
+                    <label class="player-option"><input type="checkbox" class="player-count-check" value="8+"> 8+</label>
+                </div>
             </div>
         </div>
+        <div class="filter-group filter-group--weight">
+            <label>Weight</label>
+            <div class="weight-circles">
+                <button class="weight-btn active" data-weight="any" type="button">Any</button>
+                <button class="weight-btn" data-weight="1" type="button">1</button>
+                <button class="weight-btn" data-weight="2" type="button">2</button>
+                <button class="weight-btn" data-weight="3" type="button">3</button>
+                <button class="weight-btn" data-weight="4" type="button">4</button>
+                <button class="weight-btn" data-weight="5" type="button">5</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden: kept for ?ids= URL parameter functionality -->
+    <input type="hidden" id="idFilter">
+
+    <!-- Hidden category filter (functionality preserved) -->
+    <div id="categoryFilterSection" style="display:none;">
+        <div id="categoryFilter"></div>
     </div>
 
     <!-- Game tile grid -->

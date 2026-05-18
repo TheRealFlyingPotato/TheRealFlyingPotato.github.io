@@ -41,7 +41,7 @@
     "player count": "2",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
+    "weight": 1,
     "bggurl": "https://boardgamegeek.com/boardgame/224037/codenames-duet",
     "category": [
       "Medium Crunch"
@@ -309,7 +309,7 @@
     "player count": "3-8",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
+    "weight": 1,
     "bggurl": "https://boardgamegeek.com/boardgame/143741/bang-the-dice-game",
     "category": [
       "Medium Crunch"
@@ -354,7 +354,7 @@
     "player count": "4-8",
     "cooperative": true,
     "competitive": true,
-    "weight": 4,
+    "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/171131/captain-sonar",
     "category": [
       "Medium Crunch"
@@ -441,7 +441,7 @@
     "player count": "2-5",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
+    "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/36218/dominion",
     "category": [
       "High Crunch"
@@ -470,7 +470,7 @@
     "player count": "2-7",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
+    "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/181304/mysterium"
   },
   {
@@ -512,7 +512,7 @@
     "player count": "2-6",
     "cooperative": true,
     "competitive": true,
-    "weight": 2,
+    "weight": 1,
     "bggurl": "https://boardgamegeek.com/boardgame/438/scotland-yard",
     "category": [
       "Medium Crunch"
@@ -612,7 +612,7 @@
     "player count": "1-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
+    "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/265736/tiny-towns",
     "category": [
       "Medium Crunch"
@@ -853,7 +853,7 @@
     "player count": "1-2",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
+    "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/420498/unstoppable",
     "category": [
       "High Crunch"
@@ -869,7 +869,7 @@
     "player count": "2-6",
     "cooperative": false,
     "competitive": true,
-    "weight": 4,
+    "weight": 5,
     "bggurl": "https://boardgamegeek.com/boardgame/329551/mosaic-a-story-of-civilization"
   },
   {
@@ -914,7 +914,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 3,
+    "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/191189/aeons-end",
     "category": [
       "High Crunch"
@@ -946,7 +946,7 @@
     "player count": "2",
     "cooperative": false,
     "competitive": true,
-    "weight": 2,
+    "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/415808/tactile"
   },
   {
@@ -972,7 +972,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
+    "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/70198/alien-frontiers"
   },
   {
@@ -985,7 +985,7 @@
     "player count": "2-4",
     "cooperative": false,
     "competitive": true,
-    "weight": 3,
+    "weight": 4,
     "bggurl": "https://boardgamegeek.com/boardgame/95688/eminent-domain"
   },
   {
@@ -998,7 +998,7 @@
     "player count": "1-4",
     "cooperative": true,
     "competitive": false,
-    "weight": 2,
+    "weight": 3,
     "bggurl": "https://boardgamegeek.com/boardgame/218376/direwild"
   },
   {
