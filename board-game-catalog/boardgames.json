@@ -1000,5 +1000,83 @@
     "competitive": false,
     "weight": 2,
     "bggurl": "https://boardgamegeek.com/boardgame/218376/direwild"
+  },
+  {
+    "id": 71,
+    "name": "Terraforming Mars: Ares Expedition",
+    "color": "#c1440e",
+    "image": "images/terraforming_mars_ares_expedition.webp",
+    "genre": "Engine Building",
+    "description": "A streamlined card-driven reimplementation of Terraforming Mars. Develop your corporation and play project cards to raise oxygen, temperature, and oceans and terraform the red planet.",
+    "player count": "1-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 3,
+    "bggurl": "https://boardgamegeek.com/boardgame/328871/terraforming-mars-ares-expedition"
+  },
+  {
+    "id": 73,
+    "name": "Bunny Kingdom",
+    "color": "#ff9494",
+    "image": "images/bunny_kingdom.webp",
+    "genre": "Drafting",
+    "description": "Draft cards to claim territories and build cities across a vast medieval realm of bunnies. Score for connected fiefdoms, completed resource chains, and secret parchment objectives.",
+    "player count": "2-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 2,
+    "bggurl": "https://boardgamegeek.com/boardgame/184921/bunny-kingdom"
+  },
+  {
+    "id": 74,
+    "name": "Ark Nova",
+    "color": "#1b4332",
+    "image": "images/ark_nova.webp",
+    "genre": "Engine Building",
+    "description": "Plan and build a modern zoological park while funding global conservation projects. Acquire exotic animals, build enclosures, and develop your association in a deep card-driven engine builder.",
+    "player count": "1-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 4,
+    "bggurl": "https://boardgamegeek.com/boardgame/342942/ark-nova"
+  },
+  {
+    "id": 75,
+    "name": "Dice Forge",
+    "color": "#f4d03f",
+    "image": "images/dice_forge.webp",
+    "genre": "Dice Crafting",
+    "description": "Forge custom dice by replacing faces with more powerful abilities and resources. Collect gold and divine shards to purchase heroic feats from the gods before rivals claim them first.",
+    "player count": "2-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 2,
+    "bggurl": "https://boardgamegeek.com/boardgame/194594/dice-forge"
+  },
+  {
+    "id": 76,
+    "name": "Isle of Cats",
+    "color": "#ff9f1c",
+    "image": "images/isle_of_cats.webp",
+    "genre": "Tile Placement",
+    "description": "Draft and rescue cats from the Isle before the villain Vesh arrives. Fit colorful Tetris-like cat tiles into your boat to fill rooms and score lesson card objectives.",
+    "player count": "1-4",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 3,
+    "bggurl": "https://boardgamegeek.com/boardgame/281259/the-isle-of-cats"
+  },
+  {
+    "id": 77,
+    "name": "There & Back Again",
+    "color": "#8b5e3c",
+    "image": "images/there_and_back_again.webp",
+    "genre": "Adventure",
+    "description": "A push-your-luck adventure game of daring journeys and perilous returns. Press your luck on the way out and manage the consequences on the way back to earn the greatest rewards.",
+    "player count": "2-5",
+    "cooperative": false,
+    "competitive": true,
+    "weight": 2,
+    "bggurl": "https://boardgamegeek.com/boardgame/436215/the-hobbit-there-and-back-again"
   }
 ]
