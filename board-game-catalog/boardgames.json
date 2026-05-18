@@ -927,7 +927,7 @@
     "image": "images/spirit_island.webp",
     "genre": "Cooperative Strategy",
     "description": "Players are powerful spirits protecting an island from colonizers. Combine unique powers and coordinate to repel invaders.",
-    "player count": "1-4",
+    "player count": "1-6",
     "cooperative": true,
     "competitive": false,
     "weight": 4,
